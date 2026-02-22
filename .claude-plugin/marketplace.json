@@ -5,69 +5,140 @@
     "description": "Claude Code plugins voor de Nederlandse overheid"
   },
   "owner": {
-    "name": "MinBZK",
-    "email": "standaarden@logius.nl"
+    "name": "MinBZK"
   },
   "plugins": [
     {
       "name": "logius-standaarden",
-      "description": "Skills voor Nederlandse overheidsstandaarden (Digikoppeling, API Design Rules, OAuth NL, FSC, CloudEvents, BOMOS, en meer)",
-      "version": "1.2.0",
+      "description": "Plugin voor het werken met Logius standaarden voor Nederlandse overheidsinteroperabiliteit. Bevat skills voor 77 GitHub repositories verdeeld over 9 domeinen: API Design Rules, Digikoppeling, Identity & Access Management, FSC, Logboek Dataverwerkingen, CloudEvents & Notificaties, BOMOS governance, E-Government services, en Publicatie & Tooling.",
+      "version": "1.3.4",
       "author": {
-        "name": "MinBZK",
-        "email": "standaarden@logius.nl"
+        "name": "MinBZK"
       },
       "source": {
         "source": "github",
         "repo": "MinBZK/logius-standaarden-plugin"
       },
       "category": "productivity",
-      "tags": ["overheid", "standaarden", "interoperabiliteit", "api", "digikoppeling"]
+      "tags": [
+        "overheid",
+        "standaarden",
+        "interoperabiliteit",
+        "api",
+        "digikoppeling"
+      ]
     },
     {
       "name": "zad-actions",
-      "description": "Skills voor ZAD deployment: linting, releases, action validatie, workflow generatie en deployment debugging voor Zelfservice voor Applicatie Deployment",
+      "description": "Skills voor ZAD deployment: linting, releases, action validatie, workflow generatie en deployment debugging voor Zelfservice voor Applicatie Deployment.",
       "version": "1.2.0",
       "author": {
-        "name": "Rijks ICT Gilde",
-        "email": "ictgilde@minbzk.nl"
+        "name": "Rijks ICT Gilde"
       },
       "source": {
         "source": "github",
         "repo": "RijksICTGilde/zad-actions"
       },
       "category": "productivity",
-      "tags": ["zad", "deployment", "github-actions", "linting", "release", "debugging", "workflow"]
+      "tags": [
+        "zad",
+        "deployment",
+        "github-actions",
+        "linting",
+        "release",
+        "debugging",
+        "workflow"
+      ]
     },
     {
       "name": "developer-overheid",
-      "description": "Kennisbank van developer.overheid.nl: richtlijnen en standaarden voor overheidssoftwareontwikkeling (API's, data, frontend, infra, security, open source)",
+      "description": "Dutch Government Developer Knowledge Base (developer.overheid.nl/kennisbank) - guidelines and standards for government software development",
       "version": "0.1.0",
       "author": {
-        "name": "David Stotijn",
-        "email": ""
+        "name": "David Stotijn"
       },
       "source": {
         "source": "github",
         "repo": "dstotijn/developer-overheid-nl-agent-skills"
       },
       "category": "productivity",
-      "tags": ["overheid", "developer", "api", "security", "open-source", "nl-design-system", "standaarden"]
+      "tags": [
+        "overheid",
+        "developer",
+        "api",
+        "security",
+        "open-source",
+        "nl-design-system",
+        "standaarden"
+      ]
     },
     {
       "name": "nerds",
-      "description": "Skills voor de Nederlandse Richtlijn Digitale Systemen (NeRDS): 13 richtlijnen voor het ontwerpen, ontwikkelen en inkopen van digitale systemen bij de overheid (gebruikersbehoeften, toegankelijkheid, open source, cloud, veiligheid, privacy, en meer)",
+      "description": "Plugin voor de Nederlandse Richtlijn Digitale Systemen (NeRDS). Bevat skills voor 13 richtlijnen die richting geven aan het ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid: gebruikersbehoeften, toegankelijkheid, open source, open standaarden, cloud, veiligheid, privacy, samenwerking, integratie, data, algoritmen, inkoop en duurzaamheid.",
       "version": "0.1.1",
       "author": {
-        "name": "MinBZK",
-        "email": ""
+        "name": "MinBZK"
       },
       "source": {
         "source": "github",
         "repo": "MinBZK/NeRDS"
       },
       "category": "productivity",
-      "tags": ["overheid", "richtlijnen", "nerds", "toegankelijkheid", "open-source", "cloud", "privacy", "veiligheid", "duurzaamheid"]
+      "tags": [
+        "overheid",
+        "richtlijnen",
+        "nerds",
+        "toegankelijkheid",
+        "open-source",
+        "cloud",
+        "privacy",
+        "veiligheid",
+        "duurzaamheid"
+      ]
+    },
+    {
+      "name": "internet-nl",
+      "description": "Skills voor internet.nl: test compliance met moderne internetstandaarden voor websites en mailservers (IPv6, DNSSEC, HTTPS, TLS, HSTS, DMARC, DKIM, SPF, STARTTLS, DANE).",
+      "version": "0.1.0",
+      "author": {
+        "name": "MinBZK"
+      },
+      "source": {
+        "source": "github",
+        "repo": "MinBZK/internet-nl-plugin"
+      },
+      "category": "productivity",
+      "tags": [
+        "overheid",
+        "internet-standaarden",
+        "compliance",
+        "security",
+        "dnssec",
+        "tls",
+        "dmarc"
+      ]
+    },
+    {
+      "name": "geonovum",
+      "description": "Skills voor Geonovum geo-standaarden: OGC API, WMS, WFS, metadata (ISO 19115), informatiemodellen (NEN 3610, MIM), INSPIRE en 3D.",
+      "version": "0.1.0",
+      "author": {
+        "name": "MinBZK"
+      },
+      "source": {
+        "source": "github",
+        "repo": "MinBZK/geonovum-plugin"
+      },
+      "category": "productivity",
+      "tags": [
+        "overheid",
+        "geo",
+        "geostandaarden",
+        "ogc-api",
+        "inspire",
+        "metadata",
+        "nen3610"
+      ]
     }
   ]
 }
