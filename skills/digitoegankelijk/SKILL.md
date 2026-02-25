@@ -141,41 +141,144 @@ Bron: [DigiToegankelijk.nl](https://www.digitoegankelijk.nl/) | [WCAG 2.1 (W3C)]
 | **3.3.7** Overbodige invoer | A | Eerder ingevoerde informatie niet opnieuw vragen |
 | **3.3.8** Toegankelijke authenticatie | AA | Geen cognitieve functietest vereist voor inloggen |
 
+## EN 301 549 — aanvullende eisen bovenop WCAG
+
+EN 301 549 v3.2.1 is de geharmoniseerde Europese standaard. Naast WCAG 2.1 AA (Clause 9) stelt het aanvullende eisen:
+
+| Clause | Scope | Aanvulling op WCAG |
+|--------|-------|-------------------|
+| **5** | Generieke eisen | Gesloten functionaliteit, biometrie-alternatieven, behoud toegankelijkheidsinformatie |
+| **6** | Tweewegcommunicatie | Real-time tekst (RTT), breedte voor gebarentaalvideo |
+| **7** | Video | Ondertiteling: synchronisatie, positionering, aanpasbaarheid |
+| **9** | Webcontent | WCAG 2.1 AA volledig opgenomen |
+| **10** | Niet-webdocumenten | PDF's, Word, spreadsheets moeten WCAG-equivalent voldoen |
+| **11** | Niet-websoftware | Native/mobiele apps voldoen aan WCAG via WCAG2ICT-mapping |
+| **11.8** | Authoring tools | Software voor contentcreatie moet toegankelijke output ondersteunen |
+| **12** | Documentatie en support | Productdocumentatie zelf ook toegankelijk; helpdesk accommodeert |
+
+## European Accessibility Act (EAA) — tijdlijn
+
+| Datum | Mijlpaal |
+|-------|----------|
+| Juni 2019 | EAA aangenomen (Richtlijn 2019/882) |
+| Juni 2022 | Omzettingsdeadline: nationale wetgeving in alle 27 lidstaten |
+| **Juni 2025** | **Handhaving actief** |
+| Juni 2030 | Overgangsperiode bestaande dienstcontracten eindigt |
+
+**Scope**: publieke én private sector. E-commerce, bankdiensten, telecom, vervoer, e-books. Micro-ondernemingen (<10 werknemers én <€2M omzet) zijn uitgezonderd voor diensten.
+
+**Boetes Nederland**: tot **€90.000**; toezichthouder kan diensten opschorten.
+
 ## Codepatronen voor toegankelijkheid
 
-### Skip-link
+### Paginastructuur met landmarks
 
 ```html
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginatitel - Organisatie | Rijksoverheid</title>
+</head>
 <body>
   <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
-  <header><!-- navigatie --></header>
-  <main id="main-content" tabindex="-1">
-    <!-- hoofdinhoud -->
-  </main>
-</body>
 
-<style>
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  padding: 8px;
-  background: #000;
-  color: #fff;
-  z-index: 100;
-}
-.skip-link:focus {
-  top: 0;
-}
-</style>
+  <header>
+    <nav aria-label="Hoofdnavigatie">
+      <ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/onderwerpen">Onderwerpen</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <h1>Paginatitel</h1>
+    <section aria-labelledby="section-heading">
+      <h2 id="section-heading">Sectietitel</h2>
+      <p>Inhoud...</p>
+    </section>
+  </main>
+
+  <aside aria-label="Gerelateerde informatie">
+    <!-- Aanvullende content -->
+  </aside>
+
+  <footer>
+    <nav aria-label="Footernavigatie">
+      <!-- Footer links -->
+    </nav>
+  </footer>
+</body>
+</html>
 ```
 
-### Toegankelijk formulier
+### CSS: skip-link, focus, doelgrootte, sr-only
+
+```css
+/* Verborgen voor visueel, zichtbaar voor schermlezers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip-link: zichtbaar bij focus */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  background: #000;
+  color: #fff;
+}
+.skip-link:focus { top: 0; }
+
+/* Zichtbare focus-indicator (2.4.7 + 2.4.11) */
+:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+
+/* Minimale doelgrootte (2.5.8): 24x24 CSS px */
+button, a, input, select, textarea {
+  min-height: 24px;
+  min-width: 24px;
+}
+
+/* Reflow (1.4.10): geen horizontaal scrollen bij 320px */
+@media (max-width: 320px) {
+  .container { width: 100%; }
+}
+```
+
+### Toegankelijk formulier met foutafhandeling
 
 ```html
 <form novalidate>
+  <!-- Foutsamenvatting bovenaan (bij meerdere fouten) -->
+  <div role="alert" aria-labelledby="error-summary-heading" class="error-summary" hidden>
+    <h2 id="error-summary-heading">Er zijn fouten gevonden</h2>
+    <ul>
+      <li><a href="#postcode">Vul een geldige postcode in</a></li>
+    </ul>
+  </div>
+
+  <!-- Verplicht veld met hint -->
   <div class="form-group">
-    <label for="email">E-mailadres <span aria-hidden="true">*</span></label>
+    <label for="email">
+      E-mailadres <span aria-hidden="true">*</span>
+      <span class="sr-only">(verplicht)</span>
+    </label>
     <input
       type="email"
       id="email"
@@ -183,16 +286,73 @@ Bron: [DigiToegankelijk.nl](https://www.digitoegankelijk.nl/) | [WCAG 2.1 (W3C)]
       required
       autocomplete="email"
       aria-required="true"
-      aria-describedby="email-help email-error"
+      aria-describedby="email-hint"
     />
-    <p id="email-help" class="hint">Bijv. naam@voorbeeld.nl</p>
-    <p id="email-error" class="error" role="alert" hidden>
-      Vul een geldig e-mailadres in
-    </p>
+    <p id="email-hint" class="hint">Bijvoorbeeld: naam@voorbeeld.nl</p>
   </div>
+
+  <!-- Veld met validatiefout -->
+  <div class="form-group form-group--error">
+    <label for="postcode">Postcode <span aria-hidden="true">*</span></label>
+    <p id="postcode-error" class="error-message" role="alert">
+      <span class="sr-only">Fout:</span>
+      Vul een geldige postcode in (bijvoorbeeld 1234 AB)
+    </p>
+    <input
+      type="text"
+      id="postcode"
+      name="postcode"
+      required
+      autocomplete="postal-code"
+      aria-required="true"
+      aria-invalid="true"
+      aria-describedby="postcode-error"
+      pattern="[0-9]{4}\s?[a-zA-Z]{2}"
+    />
+  </div>
+
   <button type="submit">Verzenden</button>
 </form>
 ```
+
+### Toegankelijke authenticatie (WCAG 2.2 — 3.3.8)
+
+```html
+<!-- Sta plakken toe in wachtwoordvelden -->
+<label for="password">Wachtwoord</label>
+<input type="password" id="password" name="password" autocomplete="current-password" />
+<!-- NOOIT: oncopy="return false" of onpaste="return false" -->
+<!-- NOOIT: CSS user-select: none op authenticatievelden -->
+
+<!-- Verificatiecode: sta plakken toe -->
+<label for="code">Verificatiecode</label>
+<input type="text" id="code" name="code" autocomplete="one-time-code" inputmode="numeric" />
+```
+
+### Taalattributen (cruciaal voor overheidswebsites)
+
+```html
+<html lang="nl">
+<!-- Anderstalige fragmenten -->
+<p>Dit formulier is ook beschikbaar in het
+  <a href="/en/form" lang="en" hreflang="en">English</a>.
+</p>
+<!-- Fries -->
+<p lang="fy">Wolkom by de provinsje Fryslân.</p>
+```
+
+### Live regions voor dynamische content
+
+```html
+<!-- Container MOET bestaan in DOM bij pageload (leeg) -->
+<!-- Niet-urgent (zoekresultaten, opslaan bevestigd) -->
+<div role="status" aria-live="polite" aria-atomic="true"></div>
+
+<!-- Urgent (fouten, sessie-timeout) -->
+<div role="alert" aria-live="assertive" aria-atomic="true"></div>
+```
+
+Regels: container bestaat bij pageload; `aria-atomic="true"` nodig voor VoiceOver iOS; `role="status"` = polite, `role="alert"` = assertive.
 
 ### Toegankelijke tabel
 
@@ -216,24 +376,9 @@ Bron: [DigiToegankelijk.nl](https://www.digitoegankelijk.nl/) | [WCAG 2.1 (W3C)]
 </table>
 ```
 
-### Statusbericht (WCAG 4.1.3)
-
-```html
-<!-- Gebruik role="status" voor niet-urgente meldingen -->
-<div role="status" aria-live="polite">
-  3 zoekresultaten gevonden
-</div>
-
-<!-- Gebruik role="alert" voor urgente foutmeldingen -->
-<div role="alert" aria-live="assertive">
-  Er is een fout opgetreden bij het opslaan
-</div>
-```
-
 ### Focus management bij SPA-navigatie
 
 ```javascript
-// Na routewijziging in SPA: verplaats focus naar hoofdinhoud
 function onRouteChange() {
   const main = document.getElementById('main-content');
   main.setAttribute('tabindex', '-1');
@@ -242,31 +387,77 @@ function onRouteChange() {
 }
 ```
 
-## Testtools
+## Testtools en CI/CD-integratie
 
-| Tool | Type | Beschrijving |
-|------|------|-------------|
-| **axe-core** | Geautomatiseerd | Open-source accessibility engine; integreert in CI/CD |
-| **Lighthouse** | Geautomatiseerd | Chrome DevTools accessibility audit |
-| **WAVE** | Geautomatiseerd | Web accessibility evaluation tool (browser extensie) |
-| **Pa11y** | Geautomatiseerd | CLI-tool voor CI/CD-integratie |
-| **NVDA** | Schermlezer | Gratis schermlezer voor Windows |
-| **VoiceOver** | Schermlezer | Ingebouwd in macOS/iOS |
-| **TalkBack** | Schermlezer | Ingebouwd in Android |
-| **Colour Contrast Analyser** | Handmatig | Contrastverhouding meten |
+| Tool | Type | Sterkte | Integratie |
+|------|------|---------|-----------|
+| **axe-core** | Engine | Hoogste nauwkeurigheid (~57%), geen false positives | npm, Cypress, Playwright, Jest |
+| **axe DevTools** | Browser extensie | 400K+ gebruikers, mobiel testen | Chrome, Firefox, Edge |
+| **Pa11y** | CLI | Dual engine (axe + HTML CodeSniffer), CI/CD-vriendelijk | CLI, GitHub Actions, GitLab CI |
+| **Lighthouse** | Ingebouwd (Chrome) | Gebruikt axe-core subset | Chrome DevTools, CLI, CI |
+| **WAVE** | Browser extensie | Visuele overlay van fouten | Chrome, Firefox |
+| **NVDA** | Schermlezer | Gratis, Windows | Handmatig testen |
+| **VoiceOver** | Schermlezer | Ingebouwd macOS/iOS | Handmatig testen |
 
-### Geautomatiseerd testen in CI/CD
+### axe-core in Playwright
 
-```bash
-# axe-core via CLI
-npx @axe-core/cli https://mijn-website.nl
+```javascript
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 
-# Pa11y
-npx pa11y https://mijn-website.nl --standard WCAG2AA
-
-# Lighthouse CI
-npx lhci autorun --collect.url=https://mijn-website.nl
+test('pagina voldoet aan WCAG 2.1 AA', async ({ page }) => {
+  await page.goto('/');
+  const results = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .analyze();
+  expect(results.violations).toEqual([]);
+});
 ```
+
+### Pa11y in GitHub Actions
+
+```yaml
+name: Accessibility Tests
+on: [push, pull_request]
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm start &
+      - run: npx wait-on http://localhost:3000
+      - run: npx pa11y-ci --config .pa11yci.json
+```
+
+`.pa11yci.json`:
+```json
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "runners": ["axe", "htmlcs"],
+    "timeout": 30000
+  },
+  "urls": [
+    "http://localhost:3000/",
+    "http://localhost:3000/formulier"
+  ]
+}
+```
+
+### Handmatige testchecklist (de overige 60-70%)
+
+1. **Toetsenbordnavigatie**: Tab door alle interactieve elementen; controleer focusvolgorde en zichtbaarheid
+2. **Schermlezer**: Test met NVDA (Windows, gratis) of VoiceOver (macOS/iOS)
+3. **Zoom 200%**: Controleer dat geen content verloren gaat of overlapt
+4. **Tekstafstand**: Pas 1.4.12 waarden toe (regelafstand 1.5x, alineaafstand 2x, letterafstand 0.12em, woordafstand 0.16em)
+5. **Kleurcontrast**: DevTools of Colour Contrast Analyser voor niet-tekstelementen
+6. **Koppenstructuur**: Logische hiërarchie (geen niveaus overslaan)
+7. **Formulierfouten**: Dien leeg formulier in; controleer dat fouten worden voorgelezen en focusbaar zijn
+8. **Mobiel**: Test op daadwerkelijke apparaten met TalkBack (Android)
 
 ## Implementatie-checklist
 
