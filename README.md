@@ -1,11 +1,11 @@
 # Overheid Claude Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
-[![skills](https://img.shields.io/badge/skills-21-green.svg)](#skills-in-deze-plugin)
+[![skills](https://img.shields.io/badge/skills-24-green.svg)](#skills-in-deze-plugin)
 [![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
 [![CI](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml)
 
-Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **21 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
+Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **24 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
 
 ## Snel starten
 
@@ -21,7 +21,7 @@ claude plugin install logius-standaarden@overheid-plugins
 
 ## Skills in deze plugin
 
-21 skills voor het bouwen van overheidssoftware, gegroepeerd per domein:
+24 skills voor het bouwen van overheidssoftware, gegroepeerd per domein:
 
 ### Architectuur & standaarden
 
@@ -50,6 +50,14 @@ claude plugin install logius-standaarden@overheid-plugins
 |-------|-------------|
 | [digitoegankelijk](skills/digitoegankelijk/) | WCAG 2.1/2.2, EN 301 549, EAA, codepatronen, testtools, CI/CD |
 | [nl-design-system](skills/nl-design-system/) | Design tokens, community componenten, Storybook, Rijkshuisstijl |
+
+### AI governance & beveiliging
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [genai-governance](skills/genai-governance/) | EU AI Act technische governance: model card, audit trail, HITL, conformiteitsbeoordeling |
+| [llm-security](skills/llm-security/) | OWASP LLM Top 10: prompt injection, output sanitization, DLP, PII-filtering |
+| [digitale-soevereiniteit](skills/digitale-soevereiniteit/) | CLOUD Act, soevereine hosting, BIV-classificatie, data residency, on-prem LLM |
 
 ### Cloud & infrastructuur
 
@@ -118,12 +126,15 @@ skills/
   avg-privacy/          # AVG/GDPR, Privacy by Design
   cloud-overheid/       # Rijkscloudbeleid, BIO cloud, Haven
   digikoppeling/        # Digikoppeling REST/WUS/ebMS2, PKIoverheid
+  digitale-soevereiniteit/ # CLOUD Act, soevereine hosting, BIV
   digitoegankelijk/     # WCAG, EN 301 549, EAA
   dpia-assessment/      # DPIA (7 stappen, risicomatrix)
   dso-omgevingswet/     # STOP/TPOD, IMOW, STTR, DSO API's
   e-factureren/         # Peppol, SI-UBL 2.0, EN 16931
   gemma-common-ground/  # GEMMA, Common Ground, Open Zaak
+  genai-governance/     # EU AI Act governance, audit trail, HITL
   iama-assessment/      # IAMA (3 fasen, grondrechtentoets)
+  llm-security/         # OWASP LLM Top 10, prompt injection, DLP
   logboek-dataverwerkingen/ # Logboek Dataverwerkingen API
   mdto-archivering/     # MDTO, Archiefwet, e-depot
   nl-design-system/     # Design tokens, community componenten

@@ -291,6 +291,7 @@ spec:
 | **avg-privacy** | AVG-eisen voor cloudverwerking van persoonsgegevens |
 | **dpia-assessment** | DPIA uitvoeren bij cloudmigratie met persoonsgegevens |
 | **gemma-common-ground** | Haven container platform en Common Ground architectuur |
+| **digitale-soevereiniteit** | CLOUD Act, soevereine hosting, data residency voor AI-workloads |
 | **overheid-authenticatie** | DigiD/eHerkenning in cloudomgevingen |
 
 ## Meer informatie

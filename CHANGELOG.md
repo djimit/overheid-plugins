@@ -12,17 +12,20 @@ en dit project volgt [Semantic Versioning](https://semver.org/lang/nl/).
 - CI workflow voor automatische plugin versie-checks (dagelijks, maakt PR bij versie-drift)
 - Versie-vergelijking met normalisatie (v-prefix, trailing .0)
 - Tests voor check-versions script
-- **20 nieuwe skills** voor het bouwen van overheidssoftware (totaal: 21 skills)
+- **23 nieuwe skills** voor het bouwen van overheidssoftware (totaal: 24 skills)
   - algoritmekader: AI Act risicoklassen, Algoritmekader, Algoritmeregister, generatieve AI
   - avg-privacy: AVG/GDPR, Privacy by Design/Default, verwerkingsregister, rechten betrokkenen
   - cloud-overheid: rijkscloudbeleid, BIO cloud controls, SaaS-beoordeling, Haven, exit-strategie
   - digikoppeling: Digikoppeling REST/WUS/ebMS2 profielen, PKIoverheid, MSH, OIN, Diginetwerk
+  - digitale-soevereiniteit: CLOUD Act risicoanalyse, soevereine hosting, BIV-classificatie, on-prem LLM
   - digitoegankelijk: WCAG 2.1/2.2, EN 301 549, EAA, codepatronen, testtools, CI/CD
   - dpia-assessment: volledig DPIA (7 stappen, AP 9-criteria, risicomatrix kans x impact, rapporttemplate)
   - dso-omgevingswet: STOP/TPOD, IMOW, STTR toepasbare regels, LVBB publicatie, DSO API's
   - e-factureren: Peppol, SI-UBL 2.0, EN 16931, volledige factuur-XML, OIN, identifier-schemes
   - gemma-common-ground: GEMMA referentiearchitectuur, Common Ground, Open Zaak/Formulieren, Haven
+  - genai-governance: EU AI Act governance (model card, audit trail, HITL, conformiteitsbeoordeling, model registry)
   - iama-assessment: volledig IAMA (3 fasen, 33+ vragen, grondrechtentoets, fairness-metrics, 80%-regel)
+  - llm-security: OWASP LLM Top 10 (prompt injection, output sanitization, DLP, PII-filtering, rate limiting)
   - logboek-dataverwerkingen: Logboek Dataverwerkingen API, verwerkingsactiviteiten, AVG-transparantie
   - mdto-archivering: MDTO, Archiefwet 2021, DUTO, e-depot, NEN 2082
   - nl-design-system: NL Design System design tokens, community componenten, Storybook, Rijkshuisstijl

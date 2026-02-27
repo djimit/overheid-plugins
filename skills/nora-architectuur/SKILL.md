@@ -315,6 +315,8 @@ De GDI is het stelsel van gemeenschappelijke digitale voorzieningen:
 | **zgw-apis** | ZGW API-standaarden, Haal Centraal — invulling van NORA-principes |
 | **overheid-authenticatie** | DigiD, eHerkenning — GDI-voorzieningen voor authenticatie |
 | **avg-privacy** | AVG/GDPR — privacy-aspecten van de architectuur |
+| **llm-security** | OWASP LLM Top 10 beveiligingscontrols |
+| **genai-governance** | EU AI Act technische governance-controls |
 | **digitoegankelijk** | WCAG toegankelijkheid — verplichte open standaard |
 
 ## Meer informatie

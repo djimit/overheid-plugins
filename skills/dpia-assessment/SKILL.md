@@ -373,6 +373,7 @@ Aanvullende vragen naast standaard DPIA:
 | **iama-assessment** | IAMA uitvoeren naast DPIA wanneer algoritmen of AI-systemen betrokken zijn |
 | **algoritmekader** | AI Act risicoklassen en conformiteitsbeoordeling bij algoritmische verwerking |
 | **overheid-authenticatie** | DigiD/eHerkenning beveiligingseisen bij authenticatie in de verwerking |
+| **genai-governance** | EU AI Act governance (conformiteitsbeoordeling, audit trail) |
 | **sociaal-domein** | DPIA-specifics voor sociaal domein (bijzondere persoonsgegevens, Suwinet) |
 
 ## Meer informatie

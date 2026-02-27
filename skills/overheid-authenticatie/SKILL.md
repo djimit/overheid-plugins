@@ -331,6 +331,7 @@ def validate_session(session: dict) -> bool:
 | **dpia-assessment** | DPIA uitvoeren bij authenticatiesystemen die persoonsgegevens verwerken |
 | **nora-architectuur** | BIO-beveiligingseisen en GDI-voorzieningen |
 | **zgw-apis** | ZGW API-authenticatie en -autorisatie patronen |
+| **digitale-soevereiniteit** | mTLS met PKIoverheid voor soevereine LLM-endpoints |
 | **digitoegankelijk** | WCAG-toegankelijkheid voor inlogschermen |
 
 ## Meer informatie

@@ -302,6 +302,8 @@ Elke overheidsorganisatie moet een verwerkingsregister bijhouden:
 | **iama-assessment** | IAMA uitvoeren wanneer algoritmen of AI-systemen persoonsgegevens verwerken |
 | **algoritmekader** | AI Act vereisten wanneer het systeem algoritmen of AI bevat |
 | **overheid-authenticatie** | DigiD/eHerkenning en BSN-verwerking bij authenticatie met persoonsgegevens |
+| **llm-security** | OWASP LLM Top 10, PII-filtering en output sanitization voor LLM's |
+| **digitale-soevereiniteit** | CLOUD Act, soevereine hosting, BIV-classificatie voor AI-data |
 | **sociaal-domein** | Privacy-eisen voor het sociaal domein (bijzondere persoonsgegevens, Suwinet) |
 
 ## Meer informatie
