@@ -1,11 +1,11 @@
 # Overheid Claude Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
-[![skills](https://img.shields.io/badge/skills-16-green.svg)](#skills-in-deze-plugin)
+[![skills](https://img.shields.io/badge/skills-21-green.svg)](#skills-in-deze-plugin)
 [![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
 [![CI](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml)
 
-Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **16 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
+Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **21 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
 
 ## Snel starten
 
@@ -21,7 +21,7 @@ claude plugin install logius-standaarden@overheid-plugins
 
 ## Skills in deze plugin
 
-16 skills voor het bouwen van overheidssoftware, gegroepeerd per domein:
+21 skills voor het bouwen van overheidssoftware, gegroepeerd per domein:
 
 ### Architectuur & standaarden
 
@@ -30,6 +30,8 @@ claude plugin install logius-standaarden@overheid-plugins
 | [nora-architectuur](skills/nora-architectuur/) | NORA-principes, BIO informatiebeveiliging, GDI, verplichte open standaarden |
 | [gemma-common-ground](skills/gemma-common-ground/) | GEMMA referentiearchitectuur, Common Ground, Open Zaak/Formulieren, Haven |
 | [zgw-apis](skills/zgw-apis/) | ZGW API-standaarden (Zaken, Documenten, Catalogi), Haal Centraal, paginering |
+| [digikoppeling](skills/digikoppeling/) | Digikoppeling REST/WUS/ebMS2, PKIoverheid, MSH, OIN, Diginetwerk |
+| [stuf-migratie](skills/stuf-migratie/) | StUF-BG/ZKN migratie naar ZGW API's, vertaallaag, coexistentiepatronen |
 
 ### Wet- en regelgeving
 
@@ -49,6 +51,12 @@ claude plugin install logius-standaarden@overheid-plugins
 | [digitoegankelijk](skills/digitoegankelijk/) | WCAG 2.1/2.2, EN 301 549, EAA, codepatronen, testtools, CI/CD |
 | [nl-design-system](skills/nl-design-system/) | Design tokens, community componenten, Storybook, Rijkshuisstijl |
 
+### Cloud & infrastructuur
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [cloud-overheid](skills/cloud-overheid/) | Rijkscloudbeleid, BIO cloud controls, SaaS-beoordeling, Haven, exit-strategie |
+
 ### Authenticatie & beveiliging
 
 | Skill | Beschrijving |
@@ -61,6 +69,7 @@ claude plugin install logius-standaarden@overheid-plugins
 |-------|-------------|
 | [mdto-archivering](skills/mdto-archivering/) | MDTO, Archiefwet 2021, DUTO, e-depot, NEN 2082 |
 | [open-data](skills/open-data/) | DCAT-AP-NL, data.overheid.nl, high-value datasets, FAIR-principes |
+| [logboek-dataverwerkingen](skills/logboek-dataverwerkingen/) | Logboek Dataverwerkingen API, verwerkingsactiviteiten, AVG-logging |
 
 ### Domeinspecifiek
 
@@ -68,6 +77,7 @@ claude plugin install logius-standaarden@overheid-plugins
 |-------|-------------|
 | [sociaal-domein](skills/sociaal-domein/) | iWmo/iJw/iEb berichtenstandaarden, Suwinet, ketenintegratie |
 | [e-factureren](skills/e-factureren/) | Peppol, SI-UBL 2.0, EN 16931, OIN, e-invoicing |
+| [publieke-code](skills/publieke-code/) | Standard for Public Code, publiccode.yml, REUSE, EUPL-1.2, open source overheid |
 
 ## Marketplace plugins
 
@@ -106,18 +116,23 @@ Zie [CONTRIBUTING.md](CONTRIBUTING.md) voor het volledige review-proces.
 skills/
   algoritmekader/       # AI Act, Algoritmekader, Algoritmeregister
   avg-privacy/          # AVG/GDPR, Privacy by Design
+  cloud-overheid/       # Rijkscloudbeleid, BIO cloud, Haven
+  digikoppeling/        # Digikoppeling REST/WUS/ebMS2, PKIoverheid
   digitoegankelijk/     # WCAG, EN 301 549, EAA
   dpia-assessment/      # DPIA (7 stappen, risicomatrix)
   dso-omgevingswet/     # STOP/TPOD, IMOW, STTR, DSO API's
   e-factureren/         # Peppol, SI-UBL 2.0, EN 16931
   gemma-common-ground/  # GEMMA, Common Ground, Open Zaak
   iama-assessment/      # IAMA (3 fasen, grondrechtentoets)
+  logboek-dataverwerkingen/ # Logboek Dataverwerkingen API
   mdto-archivering/     # MDTO, Archiefwet, e-depot
   nl-design-system/     # Design tokens, community componenten
   nora-architectuur/    # NORA, BIO, GDI, open standaarden
   open-data/            # DCAT-AP-NL, data.overheid.nl, HVD
   overheid-authenticatie/ # DigiD, eHerkenning, eIDAS
+  publieke-code/        # Standard for Public Code, REUSE, EUPL
   sociaal-domein/       # iWmo, iJw, iEb, Suwinet
+  stuf-migratie/        # StUF-BG/ZKN naar ZGW migratie
   tooi-metadata/        # TOOI, Woo, KOOP
   zgw-apis/             # ZGW API's, Haal Centraal
 docs/
