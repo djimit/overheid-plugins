@@ -1,16 +1,17 @@
 # Overheid Claude Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
-[![plugins](https://img.shields.io/badge/plugins-7-green.svg)](#beschikbare-plugins)
-[![CI](https://github.com/MinBZK/overheid-claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/MinBZK/overheid-claude-plugins/actions/workflows/validate.yml)
+[![skills](https://img.shields.io/badge/skills-16-green.svg)](#skills-in-deze-plugin)
+[![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
+[![CI](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml)
 
-Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Via deze marketplace kunnen overheidsteams hun Claude Code plugins publiceren en ontdekken.
+Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **16 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
 
 ## Snel starten
 
 ```bash
 # 1. Voeg de marketplace toe
-claude plugin marketplace add MinBZK/overheid-claude-plugins
+claude plugin marketplace add djimit/overheid-claude-plugins
 
 # 2. Installeer een plugin
 claude plugin install logius-standaarden@overheid-plugins
@@ -18,7 +19,57 @@ claude plugin install logius-standaarden@overheid-plugins
 
 ![Demo: plugin installeren en browsen](docs/demo.gif)
 
-## Beschikbare plugins
+## Skills in deze plugin
+
+16 skills voor het bouwen van overheidssoftware, gegroepeerd per domein:
+
+### Architectuur & standaarden
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [nora-architectuur](skills/nora-architectuur/) | NORA-principes, BIO informatiebeveiliging, GDI, verplichte open standaarden |
+| [gemma-common-ground](skills/gemma-common-ground/) | GEMMA referentiearchitectuur, Common Ground, Open Zaak/Formulieren, Haven |
+| [zgw-apis](skills/zgw-apis/) | ZGW API-standaarden (Zaken, Documenten, Catalogi), Haal Centraal, paginering |
+
+### Wet- en regelgeving
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [avg-privacy](skills/avg-privacy/) | AVG/GDPR, Privacy by Design/Default, verwerkingsregister, rechten betrokkenen |
+| [dpia-assessment](skills/dpia-assessment/) | Volledig DPIA (7 stappen, AP 9-criteria, risicomatrix, rapporttemplate) |
+| [algoritmekader](skills/algoritmekader/) | AI Act risicoklassen, Algoritmekader, Algoritmeregister, generatieve AI |
+| [iama-assessment](skills/iama-assessment/) | Volledig IAMA (3 fasen, 33+ vragen, grondrechtentoets, fairness-metrics) |
+| [dso-omgevingswet](skills/dso-omgevingswet/) | STOP/TPOD, IMOW, STTR toepasbare regels, LVBB publicatie, DSO API's |
+| [tooi-metadata](skills/tooi-metadata/) | TOOI thesauri, Woo publicatie, KOOP, overheids-URI's |
+
+### Toegankelijkheid & design
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [digitoegankelijk](skills/digitoegankelijk/) | WCAG 2.1/2.2, EN 301 549, EAA, codepatronen, testtools, CI/CD |
+| [nl-design-system](skills/nl-design-system/) | Design tokens, community componenten, Storybook, Rijkshuisstijl |
+
+### Authenticatie & beveiliging
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [overheid-authenticatie](skills/overheid-authenticatie/) | DigiD, eHerkenning, eIDAS 2.0, SAML/OIDC, BSN-verwerking |
+
+### Data & archivering
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [mdto-archivering](skills/mdto-archivering/) | MDTO, Archiefwet 2021, DUTO, e-depot, NEN 2082 |
+| [open-data](skills/open-data/) | DCAT-AP-NL, data.overheid.nl, high-value datasets, FAIR-principes |
+
+### Domeinspecifiek
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [sociaal-domein](skills/sociaal-domein/) | iWmo/iJw/iEb berichtenstandaarden, Suwinet, ketenintegratie |
+| [e-factureren](skills/e-factureren/) | Peppol, SI-UBL 2.0, EN 16931, OIN, e-invoicing |
+
+## Marketplace plugins
 
 | Plugin | Skills | Beschrijving | Maintainer |
 |--------|--------|-------------|------------|
@@ -28,7 +79,7 @@ claude plugin install logius-standaarden@overheid-plugins
 | [nerds](https://github.com/MinBZK/NeRDS) | 14 | Skills voor de Nederlandse Richtlijn Digitale Systemen (NeRDS): 13 richtlijnen voor ontwerpen, ontwikkelen en inkopen van digitale systemen (toegankelijkheid, open source, cloud, veiligheid, privacy, en meer) | [MinBZK](https://github.com/MinBZK) |
 | [internet-nl](https://github.com/MinBZK/internet-nl-plugin) | 5 | Skills voor internet.nl: test compliance met moderne internetstandaarden voor websites en mailservers (IPv6, DNSSEC, HTTPS, TLS, DMARC, DKIM, SPF, DANE) | [MinBZK](https://github.com/MinBZK) |
 | [geonovum](https://github.com/MinBZK/geonovum-plugin) | 6 | Skills voor Geonovum geo-standaarden: OGC API, WMS, WFS, metadata (ISO 19115), informatiemodellen (NEN 3610, MIM), INSPIRE en 3D | [MinBZK](https://github.com/MinBZK) |
-| [bio-security-baseline](https://github.com/djimit/overheid-claude-plugins) | 1 | BIO2 security baseline: verplichte beveiligingsmaatregelen, Forum Standaardisatie-standaarden, NCSC-richtlijnen, NIS2/Cyberbeveiligingswet, EU CRA, AI Act en compliance-informatie | [MinBZK](https://github.com/MinBZK) |
+| [bio-security-baseline](https://github.com/djimit/overheid-claude-plugins) | 1 | BIO2 security baseline: verplichte beveiligingsmaatregelen, Forum Standaardisatie-standaarden, NCSC-richtlijnen, NIS2/Cyberbeveiligingswet, EU CRA, AI Act en compliance-informatie | [djimit](https://github.com/djimit) |
 
 ## Plugin toevoegen
 
@@ -51,7 +102,24 @@ Zie [CONTRIBUTING.md](CONTRIBUTING.md) voor het volledige review-proces.
 
 ```
 .claude-plugin/
-  marketplace.json      # Catalogus met alle plugins
+  marketplace.json      # Catalogus met marketplace-plugins
+skills/
+  algoritmekader/       # AI Act, Algoritmekader, Algoritmeregister
+  avg-privacy/          # AVG/GDPR, Privacy by Design
+  digitoegankelijk/     # WCAG, EN 301 549, EAA
+  dpia-assessment/      # DPIA (7 stappen, risicomatrix)
+  dso-omgevingswet/     # STOP/TPOD, IMOW, STTR, DSO API's
+  e-factureren/         # Peppol, SI-UBL 2.0, EN 16931
+  gemma-common-ground/  # GEMMA, Common Ground, Open Zaak
+  iama-assessment/      # IAMA (3 fasen, grondrechtentoets)
+  mdto-archivering/     # MDTO, Archiefwet, e-depot
+  nl-design-system/     # Design tokens, community componenten
+  nora-architectuur/    # NORA, BIO, GDI, open standaarden
+  open-data/            # DCAT-AP-NL, data.overheid.nl, HVD
+  overheid-authenticatie/ # DigiD, eHerkenning, eIDAS
+  sociaal-domein/       # iWmo, iJw, iEb, Suwinet
+  tooi-metadata/        # TOOI, Woo, KOOP
+  zgw-apis/             # ZGW API's, Haal Centraal
 docs/
   plugin-maken.md       # Handleiding: plugin bouwen
   plugin-toevoegen.md   # Handleiding: plugin registreren

@@ -241,6 +241,15 @@ De [URI-strategie](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/techni
 - [ ] **Taalcode**: ISO 639-2 taalcode (nld, eng, fry) bij elk document
 - [ ] **Doorzoekbaarheid**: full-text zoeken op gepubliceerde documenten
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **mdto-archivering** | MDTO-metadata voor archivering en e-depot |
+| **dso-omgevingswet** | STOP/TPOD voor Omgevingswetpublicaties via LVBB |
+| **open-data** | DCAT-AP-NL voor open data metadata en linked data |
+| **avg-privacy** | AVG-eisen bij openbaarmaking van documenten met persoonsgegevens |
+
 ## Meer informatie
 
 - [TOOI — KOOP](https://tardis.gitbook.io/tooi) | [TOOI identifier-register](https://identifier.overheid.nl/)

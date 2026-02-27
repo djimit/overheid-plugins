@@ -307,6 +307,16 @@ De GDI is het stelsel van gemeenschappelijke digitale voorzieningen:
 - [ ] **API Design Rules**: REST API's conform NL API Design Rules + OpenAPI 3.x
 - [ ] **Standaardentoets**: architectuur getoetst bij Forum Standaardisatie waar nodig
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **gemma-common-ground** | GEMMA referentiearchitectuur, Common Ground, Open Zaak/Formulieren |
+| **zgw-apis** | ZGW API-standaarden, Haal Centraal — invulling van NORA-principes |
+| **overheid-authenticatie** | DigiD, eHerkenning — GDI-voorzieningen voor authenticatie |
+| **avg-privacy** | AVG/GDPR — privacy-aspecten van de architectuur |
+| **digitoegankelijk** | WCAG toegankelijkheid — verplichte open standaard |
+
 ## Meer informatie
 
 - [NORA Online](https://www.noraonline.nl/) | [NORA principes](https://www.noraonline.nl/wiki/Principes)

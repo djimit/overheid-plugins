@@ -265,6 +265,15 @@ Is het een algoritme dat invloed heeft op burgers of processen?
             └── Minimaal risico → Vrijwillige gedragscodes
 ```
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **iama-assessment** | Volledig IAMA uitvoeren met alle 33+ vragen, beslisbomen en fairness-metrics |
+| **dpia-assessment** | DPIA uitvoeren wanneer het algoritme persoonsgegevens verwerkt |
+| **avg-privacy** | Privacy by Design toepassen bij algoritmen die persoonsgegevens verwerken |
+| **nora-architectuur** | BIO-beveiligingseisen en open standaarden voor de technische implementatie |
+
 ## Meer informatie
 
 - [Algoritmekader](https://minbzk.github.io/Algoritmekader/) | [GitHub](https://github.com/MinBZK/Algoritmekader)

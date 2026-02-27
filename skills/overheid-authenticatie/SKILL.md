@@ -323,6 +323,16 @@ def validate_session(session: dict) -> bool:
 - [ ] **Privacyverklaring**: gebruik van DigiD/eHerkenning vermeld
 - [ ] **Incidentprocedure**: 24/7 bereikbaarheid voor beveiligingsincidenten ingericht
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **avg-privacy** | AVG-eisen voor BSN-verwerking, verwerkingsregister, Privacy by Design |
+| **dpia-assessment** | DPIA uitvoeren bij authenticatiesystemen die persoonsgegevens verwerken |
+| **nora-architectuur** | BIO-beveiligingseisen en GDI-voorzieningen |
+| **zgw-apis** | ZGW API-authenticatie en -autorisatie patronen |
+| **digitoegankelijk** | WCAG-toegankelijkheid voor inlogschermen |
+
 ## Meer informatie
 
 - [Logius — DigiD](https://www.logius.nl/domeinen/toegang/digid) | [DigiD koppelvlakspecificatie](https://www.logius.nl/domeinen/toegang/digid/documentatie)

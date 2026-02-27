@@ -431,6 +431,15 @@ def evalueer_model(config: IAMAMonitoringConfig, y_true, y_pred, groepen) -> IAM
 - [ ] **Rapport**: IAMA-rapport opgesteld, goedgekeurd en gepubliceerd
 - [ ] **Herhalingsschema**: datum voor volgende IAMA-evaluatie vastgesteld
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **dpia-assessment** | DPIA uitvoeren naast IAMA wanneer persoonsgegevens worden verwerkt |
+| **algoritmekader** | AI Act risicoklassen, Algoritmeregister-publicatie, generatieve AI-richtlijnen |
+| **avg-privacy** | AVG-grondslagen, Privacy by Design, verwerkingsregister voor het algoritme |
+| **nora-architectuur** | BIO-beveiligingseisen voor de technische implementatie |
+
 ## Meer informatie
 
 - [IAMA rapport (Rijksoverheid)](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmen)

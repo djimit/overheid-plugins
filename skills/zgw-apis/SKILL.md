@@ -321,6 +321,16 @@ Haal Centraal API's gebruiken cursor- of HAL-paginering met `_links`:
 - [ ] **OpenAPI**: documenteer eigen API's met OpenAPI v3.x
 - [ ] **developer.overheid.nl**: publiceer API op developer.overheid.nl
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **gemma-common-ground** | GEMMA architectuur, Common Ground, NLX/FSC, Haven |
+| **mdto-archivering** | MDTO-metadata voor zaakgericht archiveren en e-depot |
+| **overheid-authenticatie** | DigiD/eHerkenning voor authenticatie op zaak-portalen |
+| **avg-privacy** | Privacy by Design bij verwerking van persoonsgegevens in zaken |
+| **nora-architectuur** | NORA-principes en BIO-beveiliging voor API-implementaties |
+
 ## Meer informatie
 
 - [VNG ZGW API-standaarden](https://vng-realisatie.github.io/gemma-zaken/) | [GitHub](https://github.com/VNG-Realisatie/gemma-zaken)

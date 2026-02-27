@@ -281,6 +281,16 @@ Common Ground-componenten gebruiken standaard de **EUPL-1.2** (European Union Pu
 - [ ] **Softwarecatalogus**: component geregistreerd in VNG softwarecatalogus
 - [ ] **developer.overheid.nl**: API gepubliceerd op developer.overheid.nl
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **zgw-apis** | ZGW API-standaarden, Haal Centraal voor zaakgericht werken |
+| **nora-architectuur** | NORA-principes, BIO-beveiliging, verplichte open standaarden |
+| **overheid-authenticatie** | DigiD/eHerkenning voor burgerportalen en bedrijfsportalen |
+| **sociaal-domein** | iStandaarden en Suwinet voor gemeentelijk sociaal domein |
+| **nl-design-system** | Toegankelijke UI-componenten voor gemeentelijke applicaties |
+
 ## Meer informatie
 
 - [GEMMA Online](https://www.gemmaonline.nl/) | [GEMMA Softwarecatalogus](https://www.softwarecatalogus.nl/)

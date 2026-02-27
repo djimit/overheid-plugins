@@ -301,6 +301,13 @@ Logius publiceert een lijst van gecertificeerde AP-providers. Kies een provider 
 - [ ] **Archivering**: facturen gearchiveerd conform fiscale bewaarplicht (7 jaar)
 - [ ] **Testen**: facturen getest met Peppol testomgeving en SI-UBL validator
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **nora-architectuur** | Verplichte open standaarden en Digikoppeling voor berichtenverkeer |
+| **mdto-archivering** | Archivering van facturen conform Archiefwet (fiscale bewaarplicht 7 jaar) |
+
 ## Meer informatie
 
 - [Simplerinvoicing](https://www.simplerinvoicing.org/) | [SI-UBL specificatie](https://www.simplerinvoicing.org/specificatie)

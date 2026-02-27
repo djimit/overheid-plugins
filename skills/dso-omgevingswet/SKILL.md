@@ -340,6 +340,15 @@ Authorization: mTLS (PKIoverheid certificaat)
 - [ ] **Consolidatie**: wijzigingsbesluiten correct gestructureerd voor automatische consolidatie
 - [ ] **Testen**: aansluiting getest op pre-productieomgeving DSO
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **tooi-metadata** | TOOI-thesauri en KOOP-publicaties voor overheidsdocumenten |
+| **mdto-archivering** | MDTO voor archivering van omgevingsdocumenten |
+| **digitoegankelijk** | WCAG-toegankelijkheid voor het Omgevingsloket |
+| **overheid-authenticatie** | DigiD/eHerkenning voor authenticatie op het Omgevingsloket |
+
 ## Meer informatie
 
 - [Aan de slag met de Omgevingswet](https://aandeslagmetdeomgevingswet.nl/) | [Ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/)

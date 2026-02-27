@@ -308,6 +308,16 @@ async def koppel_toewijzing_aan_zaak(toewijzing: Toewijzing, zaak_url: str):
 - [ ] **Privacy by Design**: doelbinding tussen Wmo, Jeugdwet en Participatiewet gewaarborgd
 - [ ] **Testen**: berichten getest met iStandaarden testplatform
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **avg-privacy** | AVG-eisen voor bijzondere persoonsgegevens in het sociaal domein |
+| **dpia-assessment** | DPIA uitvoeren voor sociaal-domein-systemen (verplicht bij bijzondere gegevens) |
+| **zgw-apis** | ZGW API's voor zaakgericht werken en koppeling met iStandaarden |
+| **gemma-common-ground** | GEMMA architectuur en Common Ground voor gemeentelijke systemen |
+| **overheid-authenticatie** | DigiD voor burgerportalen in het sociaal domein |
+
 ## Meer informatie
 
 - [iStandaarden](https://istandaarden.nl/) | [iStandaarden portaal](https://portaal.istandaarden.nl/)

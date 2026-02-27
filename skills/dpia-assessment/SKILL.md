@@ -365,6 +365,16 @@ Aanvullende vragen naast standaard DPIA:
 - [ ] **Herziening gepland**: datum voor herziening vastgesteld (bij wijzigingen of max 3 jaar)
 - [ ] **IAMA**: apart IAMA uitgevoerd indien algoritme/AI betrokken is
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **avg-privacy** | AVG-grondslagen, Privacy by Design patronen, verwerkingsregister, rechten betrokkenen |
+| **iama-assessment** | IAMA uitvoeren naast DPIA wanneer algoritmen of AI-systemen betrokken zijn |
+| **algoritmekader** | AI Act risicoklassen en conformiteitsbeoordeling bij algoritmische verwerking |
+| **overheid-authenticatie** | DigiD/eHerkenning beveiligingseisen bij authenticatie in de verwerking |
+| **sociaal-domein** | DPIA-specifics voor sociaal domein (bijzondere persoonsgegevens, Suwinet) |
+
 ## Meer informatie
 
 - [AP — DPIA](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia)

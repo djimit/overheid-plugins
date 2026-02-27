@@ -26,6 +26,8 @@ allowed-tools:
   - WebFetch(*)
   - Bash(npm *)
   - Bash(npx *)
+  - Bash(gh api *)
+  - Bash(gh search *)
 ---
 
 # DigiToegankelijk — WCAG 2.1/2.2 & EN 301 549
@@ -474,6 +476,14 @@ jobs:
 - [ ] **Statusberichten**: `role="status"` of `role="alert"` voor dynamische berichten
 - [ ] **Toegankelijkheidsverklaring**: gepubliceerd en jaarlijks bijgewerkt
 - [ ] **Geautomatiseerde tests**: axe-core of Pa11y in CI/CD-pipeline
+
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **nl-design-system** | Toegankelijke componenten, design tokens en Storybook met WCAG AA ingebouwd |
+| **nora-architectuur** | Verplichte open standaarden en architectuurprincipes |
+| **gemma-common-ground** | Toegankelijke gemeentelijke applicaties met Open Formulieren |
 
 ## Meer informatie
 

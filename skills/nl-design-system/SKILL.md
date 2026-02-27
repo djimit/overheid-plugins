@@ -353,6 +353,14 @@ export const parameters = {
 - [ ] **Iconen**: SVG-iconen met aria-hidden="true" (decoratief) of role="img" + aria-label (informatief)
 - [ ] **Framework-agnostisch**: componenten bruikbaar in React, Angular, Vue of vanilla HTML
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **digitoegankelijk** | WCAG 2.1/2.2 eisen, EN 301 549, testtools voor toegankelijkheid |
+| **gemma-common-ground** | GEMMA architectuur en Open Formulieren voor gemeentelijke apps |
+| **nora-architectuur** | Verplichte open standaarden en architectuurprincipes |
+
 ## Meer informatie
 
 - [NL Design System](https://nldesignsystem.nl/) | [GitHub](https://github.com/nl-design-system)
@@ -360,4 +368,4 @@ export const parameters = {
 - [Gemeente Utrecht componenten](https://nl-design-system.github.io/utrecht/) — meest volwassen implementatie
 - [Rijkshuisstijl](https://www.rijkshuisstijl.nl/) — visuele identiteit Rijksoverheid
 - [Design Tokens Community Group](https://design-tokens.github.io/community-group/format/) — W3C standaard
-- [Figma — NL Design System](https://www.figma.com/community/file/...) — design assets
+- [Figma — NL Design System](https://www.figma.com/@nldesignsystem) — design assets

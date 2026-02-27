@@ -294,6 +294,16 @@ Elke overheidsorganisatie moet een verwerkingsregister bijhouden:
 - [ ] **FG betrokken**: functionaris gegevensbescherming betrokken bij ontwerp
 - [ ] **Privacy by Default**: standaardinstellingen zijn de meest privacy-vriendelijke
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **dpia-assessment** | Volledig DPIA uitvoeren met 7 stappen, AP-criteria, risicomatrix en rapporttemplate |
+| **iama-assessment** | IAMA uitvoeren wanneer algoritmen of AI-systemen persoonsgegevens verwerken |
+| **algoritmekader** | AI Act vereisten wanneer het systeem algoritmen of AI bevat |
+| **overheid-authenticatie** | DigiD/eHerkenning en BSN-verwerking bij authenticatie met persoonsgegevens |
+| **sociaal-domein** | Privacy-eisen voor het sociaal domein (bijzondere persoonsgegevens, Suwinet) |
+
 ## Meer informatie
 
 - [Autoriteit Persoonsgegevens](https://www.autoriteitpersoonsgegevens.nl/) | [AVG-regelhulp](https://www.autoriteitpersoonsgegevens.nl/nl/zelf-doen/avg-regelhulp)

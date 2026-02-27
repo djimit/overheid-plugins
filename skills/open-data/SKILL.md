@@ -299,6 +299,15 @@ async def publiceer_dataset(titel: str, beschrijving: str, resources: list[dict]
 - [ ] **Updatefrequentie**: schema voor regelmatige updates gedefinieerd en geautomatiseerd
 - [ ] **Documentatie**: databeschrijving, kolombeschrijvingen, licentie duidelijk vermeld
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **avg-privacy** | Privacycheck: geen persoonsgegevens in open data (of geanonimiseerd) |
+| **tooi-metadata** | TOOI-thesauri en URI-strategie voor linked open data |
+| **zgw-apis** | NL API Design Rules voor open data API's |
+| **nora-architectuur** | Verplichte open standaarden voor data-formaten |
+
 ## Meer informatie
 
 - [data.overheid.nl](https://data.overheid.nl/) — nationaal open data portaal

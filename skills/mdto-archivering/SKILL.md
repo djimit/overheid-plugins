@@ -306,6 +306,15 @@ Kerneisen voor een e-depot (digitaal archiefsysteem):
 - [ ] **Audittrail**: alle archiveringsbeslissingen traceerbaar gelogd
 - [ ] **ZGW-integratie**: archiefnominatie en archiefactiedatum correct ingevuld bij zaakafhandeling
 
+## Gerelateerde skills
+
+| Skill | Wanneer te gebruiken |
+|-------|---------------------|
+| **zgw-apis** | ZGW API's voor zaakgericht archiveren (archiefnominatie, archiefactiedatum) |
+| **tooi-metadata** | TOOI-thesauri en Woo-publicatie van gearchiveerde documenten |
+| **avg-privacy** | AVG-bewaartermijnen en openbaarheidsbeperking bij persoonsgegevens |
+| **dso-omgevingswet** | STOP-standaard en LVBB voor Omgevingswetdocumenten |
+
 ## Meer informatie
 
 - [Nationaal Archief — MDTO](https://www.nationaalarchief.nl/archiveren/mdto) | [MDTO XML-schema](https://www.nationaalarchief.nl/archiveren/mdto/xml-schema)
