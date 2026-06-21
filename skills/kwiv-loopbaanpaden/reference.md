@@ -95,7 +95,7 @@ Systeemarchitectuur richt zich op het beschrijven van een conceptueel model dat 
 
 Enterprise architectuur richt zich op over het vertalen van doelstellingen naar de inrichting van organisatie, processen en informatievoorziening en is in het ontwerpproces vaak als een van de eersten betrokken. Vaak is enterprise architectuur betrokken bij het ontwerp en het beheer van de bedrijfsarchitectuur (doellandschap). Waarbij er stappen worden definieert om van de huidige vorm en status (IST) naar de gewenste vorm en status van het IV-landschap en de bedrijfsprocessen (SOLL) te komen. In een SAFe-omgeving is enterprise architectuur verantwoordelijk voor het opstellen van de 'architectural epics' op portfolioniveau. Het vakgebied kan op bedrijfsniveau - dan wel domeinportfolioniveau - samen met business analyse (KWIV 4.3.2) optrekken om alle epics te visualiseren en de organisatie van werkvoorraad te voorzien. Vanuit enterprise architectuur kan de IV-professional hier de rol van
 
-**e-CF competenties (8):** A.06, A.10, B.01, B.02, B.05, B.06, C.04, E.08
+**e-CF competenties (8):** A.06 Ontwerp van Applicaties, A.10 Gebruikergedreven ontwerpen, B.01 Applicatie Ontwikkeling, B.02 Systeemintegratie, B.05 Vervaardigen van documentatie, B.06 Systeembouw, C.04 Probleemmanagement, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **4.3.2** BUSINESS ANALYSE
 
@@ -124,7 +124,7 @@ Sourcing management richt zich op het adviseren en vastleggen (op IV-gebied) wat
 
 Applicatieontwikkeling richt zich op het proces van het maken van applicaties. Dit kan bijvoorbeeld zijn (1) modulair opbouwen, (2) aanvullende functionaliteit ontwikkelen of (3) parameterisering: standaardapplicaties geschikt maken voor een specifieke situatie. De manier van technisch ontwerpen en applicatieontwikkeling is hierop aangepast, waaronder het gebruik van open software. Veelgebruikte methodieken bij het ontwikkelen van applicatie/softwaresystemen zijn Agile Scrum, Agile XP en SAFe, waarbij de ontwikkelaars in toenemende mate deel gaan uitmaken van DevOps-teams. Waar systeemontwikkeling (KWIV 2.1.2) verantwoordelijk is voor de back-end, is applicatieontwikkeling verantwoordelijk voor de front-end.
 
-**e-CF competenties (8):** A.06, A.10, B.01, B.02, B.04, B.05, E.03, E.06
+**e-CF competenties (8):** A.06 Ontwerp van Applicaties, A.10 Gebruikergedreven ontwerpen, B.01 Applicatie Ontwikkeling, B.02 Systeemintegratie, B.04 Implementeren oplossingen, B.05 Vervaardigen van documentatie, E.03 Risicomanagement, E.06 ICT kwaliteitsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **2.1.2** SYSTEEMONTWIKKELING
 
@@ -146,7 +146,7 @@ Data enginering richt zich op het organiseren van data voor analytische doeleind
 
 Testmanagement richt zich op het proces om de software te testen. Vaak is het testmanagement onderdeel van Agile Scrum, waarbij het testen zelf uitgevoerd wordt door medewerkers en/of via geautomatiseerd testen. Ook 'test driven development' (ontwikkelmethode met eerst de tests schrijven en daarna pas de code) wordt onder dit vakgebied geschaard. Het testen van de software geeft inzicht in, en adviseert over, de kwaliteit van de software en de daaraan gerelateerde risico's. Onderdeel van dit vakgebied kan zijn 'testengineering': hierin wordt het proces bepaald dat onder bepaalde omstandigheden tot een zo goed mogelijke test zal leiden.
 
-**e-CF competenties (7):** B.02, B.04, C.01, C.02, C.04, C.05, E.08
+**e-CF competenties (7):** B.02 Systeemintegratie, B.04 Implementeren oplossingen, C.01 Gebruikersondersteuning, C.02 Ondersteunen van wijzigingen, C.04 Probleemmanagement, C.05 Systeembeheer, E.08 Informatiebeveiligingsmanagement
 
 
 ## Categorie 3: LEVEREN — Leveren, ondersteunen en onderhouden van producten, diensten en oplossingen
@@ -155,7 +155,7 @@ Testmanagement richt zich op het proces om de software te testen. Vaak is het te
 
 Systeembeheer is een algemene benaming voor het beheer van servers en netwerken. In grotere organisaties is dit vakgebied vaak opgesplitst naar serverbeheerder (KWIV 3.1.4) en netwerkbeheerder (KWIV 3.1.5). De naam wordt ook wel gebruikt voor het technisch beheer van een systeem, of de combinatie van meerdere systemen en de servers waarop die draaien. Incidenten en changes kunnen grote gevolgen hebben voor de continuïteit van systemen en daarmee voor de continuïteit van en beeldvorming over de organisatie. Systeembeheer moet in dergelijke situaties onder druk nauwkeurig en volgens de voorgeschreven procedures kunnen werken. Ontwikkel- en beheerrollen worden soms samengevoegd in DevOps-teams. In dat geval zal systeembeheer naast kennis van beheer ook kennis van continuous delivery en continuous integration moeten hebben.
 
-**e-CF competenties (7):** A.06, A.10, B.04, C.01, C.03, C.04, D.11
+**e-CF competenties (7):** A.06 Ontwerp van Applicaties, A.10 Gebruikergedreven ontwerpen, B.04 Implementeren oplossingen, C.01 Gebruikersondersteuning, C.03 Dienstverlening, C.04 Probleemmanagement, D.11 Behoeftemanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **3.1.4** SERVERBEHEER | **3.1.5** NETWERKBEHEER
 
@@ -167,7 +167,7 @@ Changemanagement richt zich op het aanpassen, beheersen en gecoördineerd invoer
 
 Functioneel beheer is de verbindende schakel tussen de uitvoering en ICT van de organisatie. Is verantwoordelijk voor het beantwoorden van gebruikersvragen en zorgt ervoor dat het informatiesysteem (blijvend) voldoet aan de eisen van de gebruikers en dat de functionaliteit consistent is. Functioneel beheer werkt nauw samen met gebruikers voor het evaluierende de functionele specificaties van een informatiesysteem en het uitwerken van de functionele specificaties bij gewenste wijzigingen. Gerealiseerde wijzigingen worden door functioneel beheer getest in acceptatietesten. Daarnaast coördineert functioneel beheer de invoering van wijzigingen in de gebruikersorganisatie. Tot slot is functioneel beheer een vraagbaak voor gebruikers (in de tweede lijn) en het coördineren van oplossingen voor problemen.
 
-**e-CF competenties (11):** A.06, B.01, B.02, B.04, B.05, C.04, C.05, E.02, E.03, E.06, E.08
+**e-CF competenties (11):** A.06 Ontwerp van Applicaties, B.01 Applicatie Ontwikkeling, B.02 Systeemintegratie, B.04 Implementeren oplossingen, B.05 Vervaardigen van documentatie, C.04 Probleemmanagement, C.05 Systeembeheer, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.06 ICT kwaliteitsmanagement, E.08 Informatiebeveiligingsmanagement
 
 ### ⏳ 3.1.4 — SERVERBEHEER
 
@@ -177,7 +177,7 @@ Serverbeheer richt zich op het monitoren en onderhouden van servers om deze betr
 
 ### ⏳ 3.1.5 — NETWERKBEHEER
 
-Netwerkbeheer richt zich op het monitoren en onderhouden van netwerken om deze betrouwbaar en optimaal te laten werken. Daarbij richt het zich op het beheer van hardware, software, beveiliging en back-ups, zodat de IT-netwerkomgeving operationeel en doeltreffend blijft. Netwerkbeheer is betrokken bij het ontwerp van een netwerk en het installeren én configureren van wijzigingen in de netwerkcomponenten. Netwerkbeheer monitort de werking van een netwerk (vaak met specifieke monitoringtools) en neemt reactief of preventief maatregelen om het netwerk aan de gestelde eisen te laten voldoen. Storingen in het netwerk worden door netwerkbeheer opgelost. Dit profiel kan een specialisatie zijn van Systeembeheer (KWIV 3.1.1).
+Netwerkbeheer richt zich op het monitoren en onderhouden van netwerken om deze betrouwbaar en optimaal te laten werken. Daarbij richt het zich op het beheer van hardware, software, beveiliging en back-ups, zodat de IT-netwerkomgeving operationeel en doeltreffend blijft. Netwerkbeheer is betrokken bij het ontwerp van een netwerk en het installeren én configureren van wijzigingen in de netwerkcomponenten. Netwerkbeheer monitort de werking van een netwerk (vaak met specifieke monitoringtools) en neemt reactief of preventief maatregelen om het netwerk aan de gestelde eisen te voldoen. Storingen in het netwerk worden door netwerkbeheer opgelost. Dit profiel kan een specialisatie zijn van Systeembeheer (KWIV 3.1.1).
 
 **Gerelateerde profielen / loopbaanstappen:** **3.1.1** SYSTEEMBEHEER
 
@@ -185,7 +185,7 @@ Netwerkbeheer richt zich op het monitoren en onderhouden van netwerken om deze b
 
 Applicatiebeheer richt zich op het beheer en onderhoud van de applicaties conform de overeengekomen prestatiekenmerken (performance, bedrijfszekerheid). Applicatiebeheer zorgt voor het aansturen van de realisatie van gewenste wijzigingen door een programmeur of DBA. Ook zorgt applicatiebeheer voor het coördineren van de (technische) implementatie van de wijziging in de productieomgeving. Applicatiebeheer werkt vaak samen met databasebeheer (KWIV 3.1.7) en/of systeembeheer (KWIV 3.1.1). Vaak is applicatiebeheer – in de tweede lijn – betrokken bij het oplossen van incidenten en problemen die ontstaan zijn door technische redenen.
 
-**e-CF competenties (7):** A.05, A.06, B.05, C.05, D.10, E.06, E.08
+**e-CF competenties (7):** A.05 Ontwerpen van Architectuur, A.06 Ontwerp van Applicaties, B.05 Vervaardigen van documentatie, C.05 Systeembeheer, D.10 Informatie- en kennismanagement, E.06 ICT kwaliteitsmanagement, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **3.1.1** SYSTEEMBEHEER | **3.1.7** DATABASEBEHEER
 
@@ -193,7 +193,7 @@ Applicatiebeheer richt zich op het beheer en onderhoud van de applicaties confor
 
 Databasebeheer richt zich op het beheer en onderhoud van de data (gegevens) conform de overeengekomen prestatiekenmerken (performance, bedrijfszekerheid). Databasebeheer draagt zorg voor de kwaliteit, actualiteit, volledigheid en consistentie van gegevens in een database(s). Verder stelt Databasebeheer het gegevensmodel voor een applicatie op en beheert deze, in samenwerking met informatieanalyse (KWIV 4.3.1) of informatiearchitectuur (KWIV 1.1.1). Databasebeheer zorgt voor het verifiëren van de productieresultaten op het aspect gegevensconsistentie en –correctheid én voert de periodieke analyses op de kwaliteit van de gegevens uit.
 
-**e-CF competenties (4):** B.05, C.01, C.05, D.10
+**e-CF competenties (4):** B.05 Vervaardigen van documentatie, C.01 Gebruikersondersteuning, C.05 Systeembeheer, D.10 Informatie- en kennismanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **1.1.1** INFORMATIEARCHITECTUUR | **4.3.1** INFORMATIEANALYSE
 
@@ -201,13 +201,13 @@ Databasebeheer richt zich op het beheer en onderhoud van de data (gegevens) conf
 
 Recordbeheer richt zich op het identificeren, klasseren, archiveren, bewaren en vernietigen van records (archief). Daarmee draagt het zorg voor kwalitatieve intake, formele ontsluiting, distributie en archivering van gekanaliseerde inkomende (digitale) documentstromen. Recordbeheer zorgt voor het monitoren van de eenduidigheid en juistheid van metagegevenssets op zaken, proces- en documentniveau, het tijdig signaleren van de afwijkingen én de noodzakelijke herstelbewerkingen hierop. Recordbeheer onderhoudt hiertoe veelvuldig contact met zaakhouders en/of (mede)behandelaren om de informatiebehoeften zo goed mogelijk af te stemmen en informatieprocessen bij het organisatieonderdeel beter te laten verlopen.
 
-**e-CF competenties (8):** A.04, B.04, C.01, C.02, C.03, D.11, E.05, E.06
+**e-CF competenties (8):** A.04 Product- of serviceplanning, B.04 Implementeren oplossingen, C.01 Gebruikersondersteuning, C.02 Ondersteunen van wijzigingen, C.03 Dienstverlening, D.11 Behoeftemanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement
 
 ### ✅ 3.1.9 — DATA STEWARDSHIP
 
 Datastewardship richt zich voornamelijk op het ondersteunen van de klant/business in het onderhouden en creëren van data met een hoge kwaliteit. Het vakgebied zorgt voor het definiëren, meten en verbeteren van de datakwaliteit - in een continu proces. Bijvoorbeeld conform criteria voor juistheid, compleetheid of actualiteit (vanuit businessperspectief). Hier valt ook onder het correcte formaat en de correcte betekenis (vanuit vorm, perspectief, conform gegevensdefinitie). Het vakgebied kan op meerdere niveaus (zoals operationeel of tactisch) worden ingedeeld.
 
-**e-CF competenties (12):** A.02, A.04, A.10, C.02, C.03, C.05, D.05, D.10, D.11, E.02, E.03, E.06
+**e-CF competenties (12):** A.02 Management dienstverleningsniveau, A.04 Product- of serviceplanning, A.10 Gebruikergedreven ontwerpen, C.02 Ondersteunen van wijzigingen, C.03 Dienstverlening, C.05 Systeembeheer, D.05 Verkoopontwikkeling, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.06 ICT kwaliteitsmanagement
 
 ### ⏳ 3.2.1 — TECHNICAL SUPPORT
 
@@ -237,7 +237,7 @@ Problemmanagement richt zich op, een gestructureerde wijze, het bundelen van inc
 
 Service level management (SLM) richt zich op de uitgangspunten van de overeengekomen dienstverlening. Het stelt hiervoor een raamwerk op van de processen in de vorm van overeenkomsten, verplichtingen en relaties, die worden beheerd via de zogenaamde dienstencatalogus. De eisen / wensen en behoeften van de gebruikers/lijnmanagement en leveranciers worden afgestemd en vastgelegd in service level agreements (SLA's). SLM bewaakt proactief of de daadwerkelijk geboden dienstverlening conform de SLA wordt uitgevoerd. SLM herkent en onderscheidt patronen in dienstverlening en de naleving van de gemaakte afspraken. En stelt oplossingen voor ter voorkoming van eventuele problemen.
 
-**e-CF competenties (7):** A.01, A.07, D.01, D.10, E.03, E.08, E.09
+**e-CF competenties (7):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.07 Monitoren technologische ontwikkelingen, D.01 Strategieontwikkeling informatiebeveiliging, D.10 Informatie- en kennismanagement, E.03 Risicomanagement, E.08 Informatiebeveiligingsmanagement, E.09 IT-governance
 
 ### ⏳ 3.3.2 — CAPACITY MANAGEMENT
 
@@ -258,19 +258,19 @@ Release management richt zich op het managen van het plannen, bouwen en testen v
 
 IV-securitymanagement (informatiebeveiliging) richt zich op technische maatregelen die ingezet worden voor bescherming/beveiliging van een organisatie en de daarbij behorende medewerkers, klanten/gasten, data, financiën, goederen, et cetera. Het omvat het ontwerpen, implementeren, onderhouden en evalueren van beveiligingsmaatregelen met betrekking tot de IV (hardware en software). Securitymanagement is verantwoordelijk voor de beveiliging van de informatievoorziening (IV). De focus ligt op het beveiligen van de IV wat betreft de vertrouwelijkheid, de integriteit en de beschikbaarheid van informatie.
 
-**e-CF competenties (10):** A.01, C.02, D.01, D.02, D.10, E.02, E.03, E.05, E.07, E.08
+**e-CF competenties (10):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, C.02 Ondersteunen van wijzigingen, D.01 Strategieontwikkeling informatiebeveiliging, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.10 Informatie- en kennismanagement, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.05 Procesverbetering, E.07 Management van veranderingen in bedrijfsprocessen, E.08 Informatiebeveiligingsmanagement
 
 ### ✅ 4.1.2 — INFORMATIERISICOMANAGEMENT
 
 Informatierisicomanagement (risicobeheer) richt zich op het identificeren, analyseren en evalueren van de organisatierisico's. Met als doel om de risico's te beheersen die verbonden zijn aan de beschikbaarstelling en het gebruik van componenten van de informatievoorziening (IV). Denk aan netwerken, servers, informatiesystemen en/of applicaties. Meestal is de scope van de verantwoordelijkheden beperkt tot de IV, maar soms wordt dit vakgebied ook ingezet voor het identificeren en mitigeren van risico's in programma's of projecten. In veel gevallen levert informatierisicomanagement bijdragen aan het beleid en de richtlijnen voor risicomanagement. Daarnaast hoort ook het opstellen van concrete risicobeheersmaatregelen en/of de gewenste werking toetsen.
 
-**e-CF competenties (12):** A.01, A.06, A.07, B.01, B.02, B.06, C.04, D.01, D.10, E.03, E.08, E.09
+**e-CF competenties (12):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.06 Ontwerp van Applicaties, A.07 Monitoren technologische ontwikkelingen, B.01 Applicatie Ontwikkeling, B.02 Systeemintegratie, B.06 Systeembouw, C.04 Probleemmanagement, D.01 Strategieontwikkeling informatiebeveiliging, D.10 Informatie- en kennismanagement, E.03 Risicomanagement, E.08 Informatiebeveiligingsmanagement, E.09 IT-governance
 
 ### ✅ 4.1.3 — CYBERSECURITY MANAGEMENT
 
 Cybersecuritymanagement richt zich op de bescherming van de systemen. Het vakgebied houdt zich bezig met het proactief detecteren van kwetsbaarheden en dreigingen en het nemen van maatregelen om gevolgen van onbekende dreigingen te voorkomen en/of te mitigeren. Verder worden er analyses en forensisch onderzoek van eventueel besmette en gecompromitteerde systemen uitgevoerd. Met als doel om kwetsbaarheden op te sporen en bedreigingen van buitenaf (waaronder hackers) te voorkomen. Het is een relatief jong vakgebied dat volop in ontwikkeling is, waardoor ook het focusgebied met de tijd wat kan verschuiven.
 
-**e-CF competenties (9):** A.01, A.02, A.03, C.03, D.08, D.11, E.01, E.03, E.04
+**e-CF competenties (9):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.02 Management dienstverleningsniveau, A.03 Ontwikkelen van bedrijfsplannen, C.03 Dienstverlening, D.08 Contractmanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses, E.03 Risicomanagement, E.04 Relatiemanagement
 
 ### ⏳ 4.2.1 — CATEGORIEMANAGEMENT IV
 
@@ -294,7 +294,7 @@ Relatiemanagement IV richt zich op het opbouwen, verdiepen en verstevigen van in
 
 Contractmanagement IV richt zich op het afsluiten van contracten en bewaken van de naleving van de in het contract gemaakte afspraken (bijv. KPI's) met leveranciers. De aandacht zit vooral op de juridische en financiële aspecten. Het vakgebied heeft een overzicht van de lopende contracten, eventuele (raam)overeenkomsten, signalering van looptijden, garantietermijnen en prijsherzieningen en het aantal en soorten gecontracteerde leveranciers bij de diverse afdelingen. Contractmanagement IV werkt nauw samen met relatiemanagement IV (KWIV 4.2.3). NB. In het KWIK (InkoopKolom) bestaat een profiel dat raakvlakken heeft met dit KWIV-profiel.
 
-**e-CF competenties (15):** A.01, A.03, A.05, A.06, A.10, B.05, D.02, D.06, D.07, D.10, D.11, E.02, E.05, E.06, E.07
+**e-CF competenties (15):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.03 Ontwikkelen van bedrijfsplannen, A.05 Ontwerpen van Architectuur, A.06 Ontwerp van Applicaties, A.10 Gebruikergedreven ontwerpen, B.05 Vervaardigen van documentatie, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.06 Digitale marketing, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.02 Project- en portfoliomanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement, E.07 Management van veranderingen in bedrijfsprocessen
 
 **Gerelateerde profielen / loopbaanstappen:** **4.2.3** RELATIEMANAGEMENT IV
 
@@ -302,13 +302,13 @@ Contractmanagement IV richt zich op het afsluiten van contracten en bewaken van 
 
 Informatieanalyse richt zich op welke informatiebehoeften er zijn binnen de organisatie en/of gebruikers. Informatieanalyse vertaalt technologische en maatschappelijke ontwikkelingen, onderzoek naar de kwaliteit van de IV-bedrijfsprocessen en realistische IV-mogelijkheden, naar verbetervoorstellen en consequenties voor de IV-bedrijfsvoering. Waarbij er een verdiepende analyse wordt uitgevoerd van de gekozen oplossing en de validatie van de requirements. Informatieanalyse is de eerste fase in de ontwikkeling van een informatie- of gegevenssysteem. Op basis van kwalitatieve requirements kan de analyse gericht worden uitgevoerd.
 
-**e-CF competenties (8):** A.05, A.10, D.07, D.10, D.11, E.02, E.05, E.07
+**e-CF competenties (8):** A.05 Ontwerpen van Architectuur, A.10 Gebruikergedreven ontwerpen, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.02 Project- en portfoliomanagement, E.05 Procesverbetering, E.07 Management van veranderingen in bedrijfsprocessen
 
 ### ✅ 4.3.2 — BUSINESS ANALYSE
 
 Business analyse richt zich op de ondersteuning van de business op het gebied van inrichten en verbeteren van de bedrijfsprocessen. Business analyse analyseert (de behoeften aan) informatie en informatiesystemen, uitgaande van de eisen aan de bedrijfsprocessen en de workflow daarbinnen. Tevens worden voorstellen gedaan ter verbetering van de IV om daarmee bedrijfsprocessen optimaal te ondersteunen. Business analyse stelt de epics (overkoepelende gebruikerswensen) van het te ontwikkelen proces op. Het vakgebied verbindt de ondersteunende directies en/of afdelingen met de business-informatiebehoefte (bijvoorbeeld met HR, IT, communicatie, bedrijfsvoering). Business analyse werkt samen met enterprisearchitectuur (KWIV 1.1.6) op corporate-, dan wel domeinportfolioniveau.
 
-**e-CF competenties (7):** A.04, A.06, A.10, D.06, D.07, D.11, E.01
+**e-CF competenties (7):** A.04 Product- of serviceplanning, A.06 Ontwerp van Applicaties, A.10 Gebruikergedreven ontwerpen, D.06 Digitale marketing, D.07 Datascience en analytics, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses
 
 **Gerelateerde profielen / loopbaanstappen:** **1.1.6** ENTERPRISE ARCHITECTUUR
 
@@ -316,7 +316,7 @@ Business analyse richt zich op de ondersteuning van de business op het gebied va
 
 Data-analyse richt zich op het verzamelen van gegevens binnen de eigen organisatie. Met als doel om deze gegevens om te zetten in informatie, dat vervolgens leidt tot kennis en het aanzetten tot adequate actie (slimmer werken). Het vakgebied verzamelt gegevens uit verschillende systemen (logistieke volgsystemen, ERP, enz.), analyseert deze en vormt deze om tot bruikbare informatie voor onder meer het management (dashboard en parameters). Dit vakgebied kan zowel voor de business als voor de IV-afdeling worden ingezet. Waar Data-analyse zich richt op de voorkant van de organisatievraag (adviseren MT), richt Data Science (KWIV 4.3.4) zich op de achterkant van de vraag met veel grote datasets en specialistische data.
 
-**e-CF competenties (6):** A.07, B.01, D.07, D.10, D.11, E.01
+**e-CF competenties (6):** A.07 Monitoren technologische ontwikkelingen, B.01 Applicatie Ontwikkeling, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses
 
 **Gerelateerde profielen / loopbaanstappen:** **4.3.4** DATA SCIENCE
 
@@ -324,7 +324,7 @@ Data-analyse richt zich op het verzamelen van gegevens binnen de eigen organisat
 
 Data Science richt zich op het verkrijgen van inzichten uit (big) data. Voor de analyse worden programmeervaardigheden, statistische kennis, en afdeling- en organisatiekennis gebruikt om verbanden te leggen en inzichten te destilleren. Hiervoor wordt gebruik gemaakt van grote datasets en specialistische data door geavanceerde BI (business intelligence)-tooling en gedefinieerde algoritmen. Daarmee kunnen onder meer patronen worden ontdekt, (beleids)beslissingen worden gevalideerd en voorspellingen worden gedaan over mogelijke gebeurtenissen, gebaseerd op de historische data. Waar Data Science zich richt op de achterkant van de vraag met veel grote datasets en specialistische data, richt de Business Intelligence (KWIV 4.3.3) zich op de voorkant van de organisatievraag (zoals adviseren MT).
 
-**e-CF competenties (17):** A.01, A.02, A.03, A.04, A.08, A.10, B.05, C.02, C.03, D.02, D.05, D.10, E.01, E.02, E.03, E.05, E.06
+**e-CF competenties (17):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.02 Management dienstverleningsniveau, A.03 Ontwikkelen van bedrijfsplannen, A.04 Product- of serviceplanning, A.08 Duurzame ontwikkeling, A.10 Gebruikergedreven ontwerpen, B.05 Vervaardigen van documentatie, C.02 Ondersteunen van wijzigingen, C.03 Dienstverlening, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.05 Verkoopontwikkeling, D.10 Informatie- en kennismanagement, E.01 Ontwikkelen van prognoses, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **4.3.3** BUSINESS INTELLIGENCE/DATA ANALYSE
 
@@ -342,7 +342,7 @@ Leer- en ontwikkelmanagement richt zich op de leer- en ontwikkelomgeving van all
 
 Product owner is als "eigenaar" van het te ontwikkelen product het eerste aanspreekpunt voor het ontwikkel- of beleidsteam naar de rest van de organisatie. De Product owner zorgt voor stakeholdermanagement, de productvisie, -planning en stelt prioriteiten en de functionaliteit van het product vast. Waarbij het doel is om de waarde van het (business) product te maximaliseren en te waarborgen. De precieze invulling van het vakgebied hangt af van het type organisatie waarin dit voorkomt. Waar Product Owner zich richt op de functionaliteit van het te ontwikkelen product, richt Product management (KWIV 4.5.2) zich op de gehele levenscyclus van een product binnen een organisatie.
 
-**e-CF competenties (24):** A.01, A.02, A.03, A.04, A.05, A.08, A.10, B.05, C.02, C.03, C.04, D.02, D.05, D.08, D.10, D.11, E.01, E.02, E.03, E.04, E.05, E.06, E.07, E.08
+**e-CF competenties (24):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.02 Management dienstverleningsniveau, A.03 Ontwikkelen van bedrijfsplannen, A.04 Product- of serviceplanning, A.05 Ontwerpen van Architectuur, A.08 Duurzame ontwikkeling, A.10 Gebruikergedreven ontwerpen, B.05 Vervaardigen van documentatie, C.02 Ondersteunen van wijzigingen, C.03 Dienstverlening, C.04 Probleemmanagement, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.05 Verkoopontwikkeling, D.08 Contractmanagement, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.04 Relatiemanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement, E.07 Management van veranderingen in bedrijfsprocessen, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **4.5.2** PRODUCT MANAGER
 
@@ -350,7 +350,7 @@ Product owner is als "eigenaar" van het te ontwikkelen product het eerste aanspr
 
 Product management richt zich op het managen van de totale levenscyclus van een product, van het begin tot het einde. Product management richt zich op productcreatie en product lifecycle management. Dit door het opstellen van de strategie van de business als geheel (bijvoorbeeld een portfolioplan en productroadmap), het tactisch management van de levenscyclus per product-marktcombinatie (infaseren of het uitfaseren van het product) en operationeel management van de waardeketen. Waar Product management zich richt op de gehele levenscyclus van een product binnen een organisatie, richt Product Owner (KWIV 4.5.1) zich op de functionaliteit van het te ontwikkelen product.
 
-**e-CF competenties (14):** A.01, A.03, A.08, C.02, D.05, D.08, D.10, D.11, E.01, E.02, E.03, E.05, E.06, E.09
+**e-CF competenties (14):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.03 Ontwikkelen van bedrijfsplannen, A.08 Duurzame ontwikkeling, C.02 Ondersteunen van wijzigingen, D.05 Verkoopontwikkeling, D.08 Contractmanagement, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement, E.09 IT-governance
 
 **Gerelateerde profielen / loopbaanstappen:** **4.5.1** PRODUCT OWNER
 
@@ -389,7 +389,7 @@ Projectleiderschap IV richt zich op het managen van (een deel van) een IV-projec
 
 Projectmanagement IV richt zich op het beheersen van projecten binnen de organisatie, waarbij het doel is om alle projecten in een organisatie succesvol uit te voeren. Hierbij richt een project zich op de realisatie van één vooraf overeengekomen resultaat. Projectmanagement IV bepaalt de standaarden binnen de organisatie voor IV-projecten en coördineert deze, conform standaarden voor het plannen, organiseren, monitoren, beheersen van en rapporteren over IV-projecten. Tevens is projectmanagement IV verantwoordelijk voor het definiëren van projecten en de prioritering hiervan. Waar projectmanagement IV zich richt op het beheersen van projecten, richt programmamanagement IV (KWIV 5.1.3) zich op de beheersing van programma's (met complexe en meerdere doelen).
 
-**e-CF competenties (17):** A.01, A.03, A.08, C.02, D.01, D.02, D.05, D.08, D.10, D.11, E.01, E.02, E.03, E.05, E.06, E.07, E.09
+**e-CF competenties (17):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.03 Ontwikkelen van bedrijfsplannen, A.08 Duurzame ontwikkeling, C.02 Ondersteunen van wijzigingen, D.01 Strategieontwikkeling informatiebeveiliging, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.05 Verkoopontwikkeling, D.08 Contractmanagement, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement, E.07 Management van veranderingen in bedrijfsprocessen, E.09 IT-governance
 
 **Gerelateerde profielen / loopbaanstappen:** **5.1.3** PROGRAMMAMANAGEMENT IV
 
@@ -397,7 +397,7 @@ Projectmanagement IV richt zich op het beheersen van projecten binnen de organis
 
 Programmamanagement IV richt zich op het beheersen en succesvol uitvoeren van programma's binnen de organisatie. Hierbij richt een programma zich richt op het nastreven van meerdere, soms onderling zelfs strijdige doelen in doorgaans minimaal vijf IV-projecten. Programmamanagement IV bepaalt de standaarden binnen de organisatie voor IV-programma's en coördineert deze. De standaarden betreffen het plannen, organiseren, monitoren, beheersen van en rapporteren over IV-programma's. Tevens is programmamanagement IV verantwoordelijk voor het definiëren van programma's en de prioritering hiervan. Waar programmamanagement IV zich richt op het beheersen van programma's (met complexe en meerdere doelen), richt projectmanagement IV (KWIV 5.1.2) zich op de beheersing van projecten.
 
-**e-CF competenties (9):** A.08, C.04, D.03, D.09, D.10, E.02, E.04, E.05, E.06
+**e-CF competenties (9):** A.08 Duurzame ontwikkeling, C.04 Probleemmanagement, D.03 Opleiding en training, D.09 Personeelsontwikkeling, D.10 Informatie- en kennismanagement, E.02 Project- en portfoliomanagement, E.04 Relatiemanagement, E.05 Procesverbetering, E.06 ICT kwaliteitsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **5.1.2** PROJECTMANAGEMENT IV
 
@@ -409,7 +409,7 @@ Portfoliomanagement IV richt zich op het beheren en afstemmen van middelen (prog
 
 Scrum mastership richt zich op het begrip en het op de correcte wijze uitvoeren van de scrum-aanpak (theorie, praktijk en regels). Het vakgebied ondersteunt het scrumteam en de Product Owner (KWIV 4.5.1) door middel van coaching en facilitering en is het eerste aanspreekpunt. Scrum master is dienend aan het scrumteam en beperkt eventuele belemmeringen, gericht op maximale waarde voor het scrumteam. De scrumaanpak volgens het Agile scrum-framework (rollen, artefacten en events) wordt hierin gevolgd.
 
-**e-CF competenties (12):** A.01, A.03, D.01, D.02, D.06, D.07, D.08, D.10, D.11, E.01, E.02, E.09
+**e-CF competenties (12):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.03 Ontwikkelen van bedrijfsplannen, D.01 Strategieontwikkeling informatiebeveiliging, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.06 Digitale marketing, D.07 Datascience en analytics, D.08 Contractmanagement, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.01 Ontwikkelen van prognoses, E.02 Project- en portfoliomanagement, E.09 IT-governance
 
 **Gerelateerde profielen / loopbaanstappen:** **4.5.1** PRODUCT OWNER
 
@@ -423,7 +423,7 @@ Release train engineering (RTE) richt zich op de ondersteuning van het totaal aa
 
 Informatiemanagement richt zich op het managen van het verzamelen, opslaan en beheren van gegevens en andere soorten van informatie binnen een organisatie. Deze informatiebehoefte ontstaat vanuit verschillende bedrijfsprocessen en wordt vertaald in informatievoorziening (IV). Het vakgebied professionaliseert de vraagzijde en is daarvoor op strategisch of tactisch niveau verantwoordelijk. Het zorgt voor de IV-strategie en werkt samen met Informatiebeleid (KWIV 1.2.1) voor het meerjarig informatieplan, gericht op het verbeteren van de IV en conform het organisatiebeleid. Hierin neemt Informatiemanagement de samenhang tussen missie, de bedrijfsdoelstellingen en de (toekomstig) benodigde IV voor Informatiemanagement mee.
 
-**e-CF competenties (17):** A.01, A.04, A.05, A.06, A.08, B.01, B.04, B.05, D.01, D.02, D.06, D.07, D.10, D.11, E.03, E.06, E.08
+**e-CF competenties (17):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.04 Product- of serviceplanning, A.05 Ontwerpen van Architectuur, A.06 Ontwerp van Applicaties, A.08 Duurzame ontwikkeling, B.01 Applicatie Ontwikkeling, B.04 Implementeren oplossingen, B.05 Vervaardigen van documentatie, D.01 Strategieontwikkeling informatiebeveiliging, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.06 Digitale marketing, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.03 Risicomanagement, E.06 ICT kwaliteitsmanagement, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **1.2.1** INFORMATIEBELEID
 
@@ -431,7 +431,7 @@ Informatiemanagement richt zich op het managen van het verzamelen, opslaan en be
 
 Datamanagement richt zich op het managen van de technische infrastructuur voor de data / gegevens in een organisatie. Met als doel om de data optimaal te beheren en te gebruiken. Daarbij wordt beleid ontwikkeld ten aanzien van de kwaliteit, compliance-eisen, het gebruik en de opslag van deze data / gegevens. Het zorgt ook voor een corporate datamodel, met daarin onder meer de voor de organisatie relevante gegevensdefinities en technische informatie in bijvoorbeeld databases, applicaties en/of systemen. Waar datamanagement zich richt op het managen van de technische infrastructuur van de data, richt recordmanagement (KWIV 5.3.3) zich op het managen het beheer van de records.
 
-**e-CF competenties (11):** A.01, A.05, A.06, A.08, B.04, B.06, D.07, D.10, D.11, E.06, E.08
+**e-CF competenties (11):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.05 Ontwerpen van Architectuur, A.06 Ontwerp van Applicaties, A.08 Duurzame ontwikkeling, B.04 Implementeren oplossingen, B.06 Systeembouw, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.06 ICT kwaliteitsmanagement, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **5.3.3** RECORDMANAGEMENT
 
@@ -439,7 +439,7 @@ Datamanagement richt zich op het managen van de technische infrastructuur voor d
 
 Recordmanagement richt zich op het managen van het beheer van de records (een record is informatie die gemaakt, ontvangen en onderhouden wordt) in een organisatie. Met als doel om efficiënte en systematische controle van de records mogelijk te maken. Het vakgebied is ook vanuit kwaliteitszorg in bedrijfsinformatie- en archiveringsprocessen een fundamenteel onderdeel. Hierin neemt recordmanagement de samenhang tussen missie, de bedrijfsdoelstellingen en de (toekomstig) benodigde IV voor recordmanagement mee. Waar recordmanagement zich richt op het managen van het beheer van de records, richt datamanagement (KWIV 5.3.2) zich op het managen van de technische infrastructuur van de data.
 
-**e-CF competenties (11):** A.01, A.05, A.06, A.08, B.04, B.06, D.07, D.10, D.11, E.06, E.08
+**e-CF competenties (11):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, A.05 Ontwerpen van Architectuur, A.06 Ontwerp van Applicaties, A.08 Duurzame ontwikkeling, B.04 Implementeren oplossingen, B.06 Systeembouw, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.06 ICT kwaliteitsmanagement, E.08 Informatiebeveiligingsmanagement
 
 **Gerelateerde profielen / loopbaanstappen:** **5.3.2** DATA-/GEGEVENSMANAGEMENT
 
@@ -447,7 +447,7 @@ Recordmanagement richt zich op het managen van het beheer van de records (een re
 
 Metadatamanagement richt zich op het managen van het organiseren en beheren van de data die andere data beschrijft. Ook wel data over data genoemd. Metadatamanagement borgt de eenheid in definitie en gebruik van sets van (niet) verplichte metagegevens. En biedt hiermee het fundament voor het duurzaam beheer, de (inter)departementale uitwisseling en het actief openbaar maken van overheidsinformatie. De visie over metadatamanagement sluit aan bij de doelstellingen van de organisatie en geeft inzicht in de toegevoegde waarde van metadata. Dit geheel conform wet- en regelgeving en de door de organisatie gestelde eisen op het gebied van onder andere (duurzame) toegankelijkheid, vertrouwelijkheid en privacybescherming.
 
-**e-CF competenties (10):** A.01, D.02, D.06, D.07, D.10, D.11, E.02, E.03, E.06, E.09
+**e-CF competenties (10):** A.01 Afstemming informatiesysteem en bedrijfsstrategie, D.02 Ontwikkeling ICT-Kwaliteitsstrategie, D.06 Digitale marketing, D.07 Datascience en analytics, D.10 Informatie- en kennismanagement, D.11 Behoeftemanagement, E.02 Project- en portfoliomanagement, E.03 Risicomanagement, E.06 ICT kwaliteitsmanagement, E.09 IT-governance
 
 ### ⏳ 5.3.5 — KWALITEITSMANAGEMENT IV
 
