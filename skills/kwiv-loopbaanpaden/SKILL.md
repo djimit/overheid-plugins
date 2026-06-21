@@ -199,45 +199,51 @@ Een **I-leerkaart** geeft een overzicht van trainingen, opleidingen, workshops e
 2. **Houding- en gedragscompetenties** — gebaseerd op het Functiegebouw Rijk
 3. **Rijksspecifieke kennis** — werken als IT/IV'er binnen het Rijk
 
-**27 van de 63 profielen** hebben een I-leerkaart (stand 2026-06-21). Doel is alle 64 profielen.
+**28 van de 63 profielen** hebben een I-leerkaart (stand 2026-06-21). Doel is alle 64 profielen.
 
 ### Profielen MET I-leerkaart (✅)
-
-| ID | Naam | e-CF competenties |
-|----|------|------------------|
-| 1.1.6 | Enterprise Architectuur | A.06 Ontwerp van Applicaties · A.10 Gebruikergedreven ontwerpen · B.01 Applicatie Ontwikkeling · B.02 Systeemintegratie · B.05 Vervaardigen van documentatie · B.06 Systeembouw · C.04 Probleemmanagement · E.08 Informatiebeveiligingsmanagement |
-| 2.1.1 | Applicatieontwikkeling | A.06 Ontwerp van Applicaties · A.10 Gebruikergedreven ontwerpen · B.01 Applicatie Ontwikkeling · B.02 Systeemintegratie · B.04 Implementeren oplossingen · B.05 Vervaardigen van documentatie · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement |
-| 2.2.1 | Testmanagement | B.02 Systeemintegratie · B.04 Implementeren oplossingen · C.01 Gebruikersondersteuning · C.02 Ondersteunen van wijzigingen · C.04 Probleemmanagement · C.05 Systeembeheer · E.08 Informatiebeveiligingsmanagement |
-| 3.1.1 | Systeembeheer | A.06 Ontwerp van Applicaties · A.10 Gebruikergedreven ontwerpen · B.04 Implementeren oplossingen · C.01 Gebruikersondersteuning · C.03 Dienstverlening · C.05 Systeembeheer · D.10 Informatie- en kennismanagement |
-| 3.1.3 | Functioneel Beheer | A.06 Ontwerp van Applicaties · B.01 Applicatie Ontwikkeling · B.02 Systeemintegratie · B.04 Implementeren oplossingen · B.05 Vervaardigen van documentatie · C.01 Gebruikersondersteuning · C.02 Ondersteunen van wijzigingen · C.03 Dienstverlening · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.06 ICT kwaliteitsmanagement |
-| 3.1.6 | Applicatiebeheer | A.05 Ontwerpen van Architectuur · A.06 Ontwerp van Applicaties · B.05 Vervaardigen van documentatie · C.05 Systeembeheer · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.06 ICT kwaliteitsmanagement |
-| 3.1.7 | Databasebeheer | B.05 Vervaardigen van documentatie · C.01 Gebruikersondersteuning · C.05 Systeembeheer · D.10 Informatie- en kennismanagement |
-| 3.1.8 | Recordbeheer | A.04 Product- of serviceplanning · B.04 Implementeren oplossingen · C.01 Gebruikersondersteuning · C.02 Ondersteunen van wijzigingen · C.03 Dienstverlening · D.10 Informatie- en kennismanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement |
-| 3.1.9 | Data Stewardship | A.02 Management dienstverleningsniveau · A.04 Product- of serviceplanning · A.10 Gebruikergedreven ontwerpen · C.02 Ondersteunen van wijzigingen · C.03 Dienstverlening · C.05 Systeembeheer · D.05 Verkoopontwikkeling · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement |
-| 3.3.1 | Service Level Management | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.07 Monitoren technologische ontwikkelingen · D.01 Strategieontwikkeling informatiebeveiliging · D.10 Informatie- en kennismanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.07 Management van veranderingen in bedrijfsprocessen |
-| 4.1.1 | Security Management | A.01 Afstemming informatiesysteem en bedrijfsstrategie · C.02 Ondersteunen van wijzigingen · D.01 Strategieontwikkeling informatiebeveiliging · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.10 Informatie- en kennismanagement · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.05 Procesverbetering · E.07 Management van veranderingen in bedrijfsprocessen · E.08 Informatiebeveiligingsmanagement |
-| 4.1.2 | Informatierisicomanagement | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.06 Ontwerp van Applicaties · A.07 Monitoren technologische ontwikkelingen · B.01 Applicatie Ontwikkeling · B.02 Systeemintegratie · B.06 Systeembouw · C.04 Probleemmanagement · D.01 Strategieontwikkeling informatiebeveiliging · D.10 Informatie- en kennismanagement · E.03 Risicomanagement · E.08 Informatiebeveiligingsmanagement · E.09 IT-governance |
-| 4.1.3 | Cybersecurity Management | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.02 Management dienstverleningsniveau · A.03 Ontwikkelen van bedrijfsplannen · C.03 Dienstverlening · D.08 Contractmanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.08 Informatiebeveiligingsmanagement · E.09 IT-governance |
-| 4.2.4 | Contract-/Leveranciersmanagement IV | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.03 Ontwikkelen van bedrijfsplannen · A.05 Ontwerpen van Architectuur · A.06 Ontwerp van Applicaties · A.10 Gebruikergedreven ontwerpen · C.02 Ondersteunen van wijzigingen · C.04 Probleemmanagement · D.01 Strategieontwikkeling informatiebeveiliging · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.05 Verkoopontwikkeling · D.08 Contractmanagement · D.10 Informatie- en kennismanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.09 IT-governance |
-| 4.3.1 | Informatieanalyse | A.05 Ontwerpen van Architectuur · A.10 Gebruikergedreven ontwerpen · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.07 Management van veranderingen in bedrijfsprocessen · E.08 Informatiebeveiligingsmanagement |
-| 4.3.2 | Business Analyse | A.04 Product- of serviceplanning · A.06 Ontwerp van Applicaties · A.10 Gebruikergedreven ontwerpen · D.06 Digitale marketing · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement |
-| 4.3.3 | Business Intelligence/Data Analyse | A.07 Monitoren technologische ontwikkelingen · B.01 Applicatie Ontwikkeling · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.06 ICT kwaliteitsmanagement |
-| 4.3.4 | Data Science | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.02 Management dienstverleningsniveau · A.03 Ontwikkelen van bedrijfsplannen · A.04 Product- of serviceplanning · A.08 Duurzame ontwikkeling · A.10 Gebruikergedreven ontwerpen · B.05 Vervaardigen van documentatie · C.02 Ondersteunen van wijzigingen · C.03 Dienstverlening · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.05 Verkoopontwikkeling · D.10 Informatie- en kennismanagement · E.01 Ontwikkelen van prognoses · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.05 Procesverbetering · E.06 ICT kwaliteitsmanagement |
-| 4.5.1 | Product Owner | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.02 Management dienstverleningsniveau · A.03 Ontwikkelen van bedrijfsplannen · A.04 Product- of serviceplanning · A.05 Ontwerpen van Architectuur · A.08 Duurzame ontwikkeling · A.10 Gebruikergedreven ontwerpen · B.05 Vervaardigen van documentatie · C.02 Ondersteunen van wijzigingen · C.03 Dienstverlening · C.04 Probleemmanagement · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.05 Verkoopontwikkeling · D.08 Contractmanagement · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.01 Ontwikkelen van prognoses · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.04 Relatiemanagement · E.05 Procesverbetering · E.06 ICT kwaliteitsmanagement · E.07 Management van veranderingen in bedrijfsprocessen · E.08 Informatiebeveiligingsmanagement |
-| 4.5.2 | Product Manager | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.03 Ontwikkelen van bedrijfsplannen · A.08 Duurzame ontwikkeling · C.02 Ondersteunen van wijzigingen · D.05 Verkoopontwikkeling · D.08 Contractmanagement · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.01 Ontwikkelen van prognoses · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.05 Procesverbetering · E.06 ICT kwaliteitsmanagement · E.09 IT-governance |
-| 5.1.2 | Projectmanagement IV | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.03 Ontwikkelen van bedrijfsplannen · A.08 Duurzame ontwikkeling · C.02 Ondersteunen van wijzigingen · D.01 Strategieontwikkeling informatiebeveiliging · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.05 Verkoopontwikkeling · D.08 Contractmanagement · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.01 Ontwikkelen van prognoses · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.05 Procesverbetering · E.06 ICT kwaliteitsmanagement · E.07 Management van veranderingen in bedrijfsprocessen · E.09 IT-governance |
-| 5.1.3 | Programmamanagement IV | A.08 Duurzame ontwikkeling · C.04 Probleemmanagement · D.03 Opleiding en training · D.09 Personeelsontwikkeling · D.10 Informatie- en kennismanagement · E.02 Project- en portfoliomanagement · E.04 Relatiemanagement · E.05 Procesverbetering · E.06 ICT kwaliteitsmanagement |
-| 5.2.1 | Scrum Master | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.03 Ontwikkelen van bedrijfsplannen · D.01 Strategieontwikkeling informatiebeveiliging · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.06 Digitale marketing · D.07 Datascience en analytics · D.08 Contractmanagement · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.01 Ontwikkelen van prognoses · E.02 Project- en portfoliomanagement · E.09 IT-governance |
-| 5.3.1 | Informatiemanagement | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.04 Product- of serviceplanning · A.05 Ontwerpen van Architectuur · A.06 Ontwerp van Applicaties · A.08 Duurzame ontwikkeling · B.01 Applicatie Ontwikkeling · B.04 Implementeren oplossingen · B.05 Vervaardigen van documentatie · D.01 Strategieontwikkeling informatiebeveiliging · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.06 Digitale marketing · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.08 Informatiebeveiligingsmanagement |
-| 5.3.2 | Data-/Gegevensmanagement | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.05 Ontwerpen van Architectuur · A.06 Ontwerp van Applicaties · A.08 Duurzame ontwikkeling · B.04 Implementeren oplossingen · B.06 Systeembouw · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.06 ICT kwaliteitsmanagement · E.08 Informatiebeveiligingsmanagement |
-| 5.3.3 | Recordmanagement | A.01 Afstemming informatiesysteem en bedrijfsstrategie · A.05 Ontwerpen van Architectuur · A.06 Ontwerp van Applicaties · A.08 Duurzame ontwikkeling · B.04 Implementeren oplossingen · B.06 Systeembouw · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.06 ICT kwaliteitsmanagement · E.08 Informatiebeveiligingsmanagement |
-| 5.3.4 | Metadata-/Gegevensmanagement | A.01 Afstemming informatiesysteem en bedrijfsstrategie · D.02 Ontwikkeling ICT-Kwaliteitsstrategie · D.06 Digitale marketing · D.07 Datascience en analytics · D.10 Informatie- en kennismanagement · D.11 Behoeftemanagement · E.02 Project- en portfoliomanagement · E.03 Risicomanagement · E.06 ICT kwaliteitsmanagement · E.09 IT-governance |
+| ID | Naam | e-CF codes (I-leerkaart) |
+|----|------|--------------------------|
+| 1.1.6 | Enterprise Architectuur | A.01 A.03 A.05 A.07 B.02 B.06 D.10 D.11 E.06 E.07 E.08 E.09 |
+| 2.1.1 | Applicatieontwikkeling | A.06 A.10 B.01 B.02 B.03 B.05 B.06 C.04 E.08 |
+| 2.2.1 | Testmanagement | A.06 A.10 B.01 B.02 B.03 B.04 B.05 E.03 E.06 |
+| 3.1.1 | Systeembeheer | B.02 B.03 C.01 C.02 C.04 C.05 E.08 |
+| 3.1.3 | Functioneel Beheer | A.06 A.10 B.03 C.01 C.03 C.04 D.11 |
+| 3.1.6 | Applicatiebeheer | A.06 B.01 B.02 B.03 B.04 B.05 C.04 C.05 E.02 E.03 E.06 E.08 |
+| 3.1.7 | Databasebeheer | A.05 A.06 B.05 C.05 D.10 E.06 E.08 |
+| 3.1.8 | Recordbeheer | B.05 C.01 C.05 D.10 |
+| 3.1.9 | Data Stewardship | A.04 B.03 C.01 C.02 C.03 D.11 E.05 E.06 |
+| 3.3.1 | Service Level Management | A.02 A.04 A.10 C.02 C.03 C.05 D.05 D.10 D.11 E.02 E.03 E.06 |
+| 4.1.1 | Security Management | A.01 A.07 D.01 D.10 E.03 E.08 E.09 |
+| 4.1.2 | Informatierisicomanagement | A.01 C.02 D.01 D.02 D.10 E.02 E.03 E.05 E.07 E.08 |
+| 4.1.3 | Cybersecurity Management | A.01 A.06 A.07 B.01 B.02 B.03 C.04 D.01 D.10 E.03 E.08 E.09 |
+| 4.2.4 | Contract-/Leveranciersmanagement IV | A.01 A.02 A.03 C.03 D.04 D.08 D.11 E.01 E.03 E.04 |
+| 4.3.1 | Informatieanalyse | A.01 A.03 A.05 A.06 A.09 A.10 B.05 D.02 D.06 D.07 D.10 D.11 E.05 E.06 E.07 |
+| 4.3.2 | Business Analyse | A.05 A.09 A.10 D.07 D.10 D.11 E.02 E.05 |
+| 4.3.3 | Business Intelligence/Data Analyse | A.04 A.06 A.10 B.03 D.07 D.11 E.01 |
+| 4.3.4 | Data Science | A.07 A.09 B.01 B.03 D.10 D.11 E.01 |
+| 4.5.1 | Product Owner | A.01 A.02 A.03 A.04 A.08 A.10 B.03 C.02 C.03 D.02 D.05 D.10 E.01 E.02 E.03 E.05 E.06 |
+| 4.5.2 | Product Manager | A.01 A.02 A.03 A.04 A.05 A.08 A.10 B.03 C.02 C.03 C.04 D.02 D.04 D.05 D.08 D.10 D.11 E.01 E.02 E.03 E.04 E.05 E.06 E.07 E.08 |
+| 5.1.2 | Projectmanagement IV | A.01 A.03 A.08 A.09 C.02 D.04 D.05 D.08 D.10 D.11 E.01 E.02 E.03 E.05 E.06 E.09 |
+| 5.1.3 | Programmamanagement IV | A.01 A.03 A.08 A.09 C.02 D.01 D.02 D.04 D.05 D.08 D.10 D.11 E.01 E.02 E.03 E.05 E.06 E.07 E.09 |
+| 5.2.1 | Scrum Master | A.08 B.03 D.03 D.09 D.10 E.02 E.04 E.05 E.06 |
+| 5.3.1 | Informatiemanagement | A.01 A.03 A.09 D.01 D.02 D.04 D.06 D.07 D.08 D.10 D.11 E.01 E.02 E.09 |
+| 5.3.2 | Data-/Gegevensmanagement | A.01 A.04 A.05 A.06 A.08 A.09 B.01 B.04 B.05 D.01 D.02 D.06 D.07 D.10 D.11 E.03 E.06 E.08 |
+| 5.3.3 | Recordmanagement | A.01 A.05 A.06 A.08 B.04 B.06 D.07 D.10 D.11 E.06 E.08 |
+| 5.3.4 | Metadata-/Gegevensmanagement | A.01 A.05 A.06 A.08 B.04 B.06 D.07 D.10 D.11 E.06 E.08 |
+| 5.3.5 | Kwaliteitsmanagement IV | A.01 D.02 D.06 D.07 D.10 D.11 E.02 E.03 E.06 E.09 |
 
 ### Workflow: leerkaart opzoeken
 1. Check of het profiel ✅ heeft in bovenstaande tabel
-2. Verwijs naar: https://kwiv.rijksapplicaties.nl/i-leerkaarten — zoek profiel via zoekbalk
-3. Klik op profiel → tabblad "Competenties & I-leerkaarten" → klik competentie voor leeractiviteiten
-4. Klik tabblad "I-loopbaanpaden" voor loopbaanadvies
+2. Voor e-CF niveaus per competentie: zie [leerkaarten-niveaus.md](leerkaarten-niveaus.md)
+3. Verwijs naar: https://kwiv.rijksapplicaties.nl/i-leerkaarten voor leeractiviteiten per competentie
+4. Klik op profiel → tabblad "Competenties & I-leerkaarten" → klik competentie voor leeractiviteiten
+
+### Workflow: e-CF niveau opzoeken
+1. Zoek het profiel-ID op (bijv. 4.5.1 Product Owner)
+2. Raadpleeg [leerkaarten-niveaus.md](leerkaarten-niveaus.md) voor de specifieke e-CF niveaus (1–5)
+3. Niveaus: 1=Fundamenteel, 2=Basis, 3=Gevorderd, 4=Senior, 5=Expert
+4. Vermeld: het vereiste niveau geldt als richtlijn, niet als selectiecriterium
 
 ### e-CF domeinen
 | Domein | Codes | Focus |
@@ -250,5 +256,6 @@ Een **I-leerkaart** geeft een overzicht van trainingen, opleidingen, workshops e
 
 ## Volledige profielomschrijvingen en e-CF data
 
-Zie [reference.md](reference.md) voor alle 63 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties.  
-Zie [fgr-koppeling.md](fgr-koppeling.md) voor de koppeling tussen FGR-functies en KWIV-profielen.
+- [reference.md](reference.md) — alle 63 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties
+- [leerkaarten-niveaus.md](leerkaarten-niveaus.md) — e-CF niveaus (1–5) per competentie voor 28 profielen met I-leerkaart
+- [fgr-koppeling.md](fgr-koppeling.md) — indicatieve FGR functiefamilie-koppeling per KWIV profiel
