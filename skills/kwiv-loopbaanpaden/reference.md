@@ -1,7 +1,7 @@
 # KWIV Profielcatalogus — Referentie
 
 **Bron:** KWIV — https://kwiv.rijksapplicaties.nl  
-**Scraped:** 2026-06-21 | **61 profielen** | **27 met I-leerkaart** | **288 e-CF competentie-entries**
+**Scraped:** 2026-06-21 | **63 profielen** | **27 met I-leerkaart** | **288 e-CF competentie-entries**
 
 **Legenda:** ✅ = I-leerkaart beschikbaar | ⏳ = leerkaart nog niet beschikbaar
 
@@ -87,7 +87,7 @@ Technische architectuur richt zich op het beschrijven van de principes, richtlij
 
 ### ⏳ 1.1.5 — SYSTEEMARCHITECTUUR
 
-Systeemarchitectuur richt zich op het beschrijven van een conceptueel model dat de structuur, het gedrag en de weergave van een systeem definieert. Hierbij wordt er rekening gehouden met beveiliging, audits, de prestaties en de uitwisseling van gegevens met externe bronnen of bestemmingen. Systeemarchitectuur overziet het gehele domein in technische zin. De schakel tussen de product- of domeinvisie, en de benodigde aanpassingen aan het specifieke IV-landschap. Binnen het Scaled Agile Framework is systeemarchitectuur verantwoordelijk voor het opstellen van de 'architectural features' op programmaniveau. De systeeminfrastructuur moet passen binnen de informatiearchitectuur (KWIV 1.1.1), het automatiseringsbeleid en de automatiseringsplannen. Hierbij is systeemarchitectuur een belangrijke sparringpartner voor de product manager (KWIV 4.5.2) en product owners (KWIV 4.5.1). Vaak maakt systeem
+Systeemarchitectuur richt zich op het beschrijven van een conceptueel model dat de structuur, het gedrag en de weergave van een systeem definieert. Hierbij wordt er rekening gehouden met beveiliging, audits, de prestaties en de uitwisseling van gegevens met externe bronnen of bestemmingen. Systeemarchitectuur overziet het gehele domein in technische zin. De schakel tussen de product- of domeinvisie, en de benodigde aanpassingen aan het specifieke IV-landschap. Binnen het Scaled Agile Framework is systeemarchitectuur verantwoordelijk voor het opstellen van de 'architectural features' op programmaniveau. De systeeminfrastructuur moet passen binnen de informatiearchitectuur (KWIV 1.1.1), het automatiseringsbeleid en de automatiseringsplannen. Hierbij is systeemarchitectuur een belangrijke sparringpartner voor de product manager (KWIV 4.5.2) en product owners (KWIV 4.5.1). Vaak maakt systeemarchitectuur deel uit van het productmanagementteam.
 
 **Gerelateerde profielen / loopbaanstappen:** **1.1.1** INFORMATIEARCHITECTUUR | **4.5.1** PRODUCT OWNER | **4.5.2** PRODUCT MANAGER
 
@@ -105,7 +105,7 @@ Informatiebeleid is gericht op het verbeteren van betrouwbare informatie en van 
 
 ### ⏳ 1.2.2 — INNOVATIEMANAGEMENT
 
-Innovatiemanagement richt zich op het consequent verbeteren en (deels) vernieuwen van producten, processen, organisatie en vaardigheden. Gedurende de initiatieffase van (potentieel) nieuwe projecten. Daarbij houdt het rekening met de departementale architectuur-, beveiligings- en privacykaders. De innovatie kan zich uiten in bijvoorbeeld een experiment, een idee uitwerken tot een pilot of een brainstormsessie organiseren om de gebruikerswensen goed boven tafel te krijgen. Ook is het mogelijk de markt op te gaan om de innovatie te beproeven en de levensvatbaarheid concreet te maken. Doorgaans is er contact met een projectenbureau of andere bron waaruit inspiratie tot innovatie kan worden gehaald. Vakgebied heeft raakvlakken met Informatiebeleid (KWIV 1.2.1) en Kwaliteitsmanagement (KWIV 5.3.5).
+Innovatiemanagement richt zich op het consequent verbeteren en (deels) vernieuwen van producten, processen, organisatie en vaardigheden. Gedurende de initiatiefase van (potentieel) nieuwe projecten. Daarbij houdt het rekening met de departementale architectuur-, beveiligings- en privacykaders. De innovatie kan zich uiten in bijvoorbeeld een experiment, een idee uitwerken tot een pilot of een brainstormsessie organiseren om de gebruikerswensen goed boven tafel te krijgen. Ook is het mogelijk de markt op te gaan om de innovatie te beproeven en de levensvatbaarheid concreet te maken. Doorgaans is er contact met een projectenbureau of andere bron waaruit inspiratie tot innovatie kan worden gehaald. Vakgebied heeft raakvlakken met Informatiebeleid (KWIV 1.2.1) en Kwaliteitsmanagement (KWIV 5.3.5).
 
 **Gerelateerde profielen / loopbaanstappen:** **1.2.1** INFORMATIEBELEID | **5.3.5** KWALITEITSMANAGEMENT IV
 
@@ -165,7 +165,7 @@ Changemanagement richt zich op het aanpassen, beheersen en gecoördineerd invoer
 
 ### ✅ 3.1.3 — FUNCTIONEEL BEHEER
 
-Functioneel beheer is de verbindende schakel tussen de uitvoering en ICT van de organisatie. Is verantwoordelijk voor het beantwoorden van gebruikersvragen en zorgt ervoor dat het informatiesysteem (blijvend) voldoet aan de eisen van de gebruikers en dat de functionaliteit consistent is. Functioneel beheer werkt nauw samen met gebruikers voor het evalueren van de functionele specificaties van een informatiesysteem en het uitwerken van de functionele specificaties bij gewenste wijzigingen. Gerealiseerde wijzigingen worden door functioneel beheer getest in acceptatietesten. Daarnaast coördineert functioneel beheer de invoering van wijzigingen in de gebruikersorganisatie. Tot slot is functioneel beheer een vraagbaak voor gebruikers (in de tweede lijn) en het coördineren van oplossingen voor problemen.
+Functioneel beheer is de verbindende schakel tussen de uitvoering en ICT van de organisatie. Is verantwoordelijk voor het beantwoorden van gebruikersvragen en zorgt ervoor dat het informatiesysteem (blijvend) voldoet aan de eisen van de gebruikers en dat de functionaliteit consistent is. Functioneel beheer werkt nauw samen met gebruikers voor het evaluierende de functionele specificaties van een informatiesysteem en het uitwerken van de functionele specificaties bij gewenste wijzigingen. Gerealiseerde wijzigingen worden door functioneel beheer getest in acceptatietesten. Daarnaast coördineert functioneel beheer de invoering van wijzigingen in de gebruikersorganisatie. Tot slot is functioneel beheer een vraagbaak voor gebruikers (in de tweede lijn) en het coördineren van oplossingen voor problemen.
 
 **e-CF competenties (11):** A.06, B.01, B.02, B.04, B.05, C.04, C.05, E.02, E.03, E.06, E.08
 
@@ -213,7 +213,13 @@ Datastewardship richt zich voornamelijk op het ondersteunen van de klant/busines
 
 Technical support richt zich op het ondersteunen en oplossen van complexe technische problemen van de klant/medewerkers. Tevens voert het controles uit om problemen vroegtijdig te signaleren. Technical support is een tweede lijn support. Veelal gaat het over IT-gerelateerde problemen, maar het kan ook gaan over (rand)apparatuur of machines die niet meer naar behoren functioneren. Technical support is in staat om het totaal van een vraagstuk te overzien. Breedte (overzicht) en diepte (specialistische deskundigheid) op enkele terreinen zijn hierbij van belang. Waar technical support zich richt op de complexere technisch problemen (2de lijn), richt de 1e lijns gebruikersondersteuning (KWIV 3.2.2) op standaard storingen, problemen etc.
 
-**Gerelateerde profielen / loopbaanstappen:** **3.2.2** 3.2.2
+**Gerelateerde profielen / loopbaanstappen:** **3.2.2** 1E LIJNS GEBRUIKERSONDERSTEUNING
+
+### ⏳ 3.2.2 — 1E LIJNS GEBRUIKERSONDERSTEUNING
+
+1e lijns gebruikersondersteuning richt zich op het coördineren, ondersteunen en oplossen van technische problemen van de klant/medewerkers. Het is de eerste lijn support (direct klantcontact). Daarbij coördineert het dat incidenten conform de dienstverleningsovereenkomst (SLA) worden afgehandeld. Indien 1e lijns gebruikersondersteuning het probleem niet kan oplossen, dan wordt het incident doorgezet naar de 2e lijn: bijvoorbeeld technical support (KWIV 3.2.1) of applicatiebeheer (KWIV 3.1.6). Afhankelijk van de organisatie kunnen de volgende facetten ook onder het vakgebied worden geschaard: het identificeren van problemen, het coördineren van wijzigingen, het registreren van gebruikers en/of het instellen van autorisaties.
+
+**Gerelateerde profielen / loopbaanstappen:** **3.2.1** TECHNICAL SUPPORT | **3.1.6** APPLICATIEBEHEER
 
 ### ⏳ 3.2.3 — INCIDENT MANAGEMENT
 
@@ -250,6 +256,7 @@ Release management richt zich op het managen van het plannen, bouwen en testen v
 
 ### ✅ 4.1.1 — SECURITY MANAGEMENT
 
+IV-securitymanagement (informatiebeveiliging) richt zich op technische maatregelen die ingezet worden voor bescherming/beveiliging van een organisatie en de daarbij behorende medewerkers, klanten/gasten, data, financiën, goederen, et cetera. Het omvat het ontwerpen, implementeren, onderhouden en evalueren van beveiligingsmaatregelen met betrekking tot de IV (hardware en software). Securitymanagement is verantwoordelijk voor de beveiliging van de informatievoorziening (IV). De focus ligt op het beveiligen van de IV wat betreft de vertrouwelijkheid, de integriteit en de beschikbaarheid van informatie.
 
 **e-CF competenties (10):** A.01, C.02, D.01, D.02, D.10, E.02, E.03, E.05, E.07, E.08
 
@@ -445,3 +452,10 @@ Metadatamanagement richt zich op het managen van het organiseren en beheren van 
 ### ⏳ 5.3.5 — KWALITEITSMANAGEMENT IV
 
 Kwaliteitsmanagement IV richt zich op het managen van de optimalisatie van de kwaliteit van IV-processen, -producten en -services. Dit vakgebied kan ingezet worden binnen een (onderdeel van een) organisatie of een groot programma, maar komt ook voor in alle delen van het management van een organisatie. Kwaliteitsmanagement IV is gericht op een optimale beschikbaarheid en kwaliteit van de duurzaam toegankelijke informatiehuishouding, vanuit een 'end-to-end'-benadering. Met als intentie om de doelen en normen te bereiken, via het handhaven van de vooropgestelde principes voor betrouwbaarheid en integriteit en methoden verder te verbeteren.
+
+
+## Categorie 5.4: MANAGEN — Beheersing en toetsing
+
+### ⏳ 5.4.1 — IT-CONTROL
+
+IT-control, beter gezegd: IV-control, richt zich op de controle van het informatiebeveiligingsbeleid of IT Risk Management. Het betreft de controle op de algemene beheersmaatregelen (zoals beleidslijnen en procedures) rond de IV-omgeving, die ervoor moeten zorgen dat beheersmaatregelen met een IV-component continu betrouwbaar werken. IV-control is verantwoordelijk voor het toetsen van de kwaliteit, de integratie en de kosten van de IV (inclusief projecten) aan die van de organisatie. Gericht om het risico te verkleinen en rapportages over de bevindingen op te stellen. Hiervoor wordt vaak een framework voor IV-control opgesteld.

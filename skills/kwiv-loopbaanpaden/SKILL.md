@@ -106,6 +106,7 @@ Het **Kwaliteitsraamwerk Informatievoorziening (KWIV)** bestaat uit **64 compete
 | 3.1.8 | Recordbeheer |
 | 3.1.9 | Data Stewardship |
 | 3.2.1 | Technical Support |
+| 3.2.2 | 1e Lijns Gebruikersondersteuning |
 | 3.2.3 | Incident Management |
 | 3.2.4 | Problem Management |
 | 3.3.1 | Service Level Management |
@@ -176,7 +177,7 @@ Een **I-leerkaart** geeft een overzicht van trainingen, opleidingen, workshops e
 2. **Houding- en gedragscompetenties** — gebaseerd op het Functiegebouw Rijk
 3. **Rijksspecifieke kennis** — werken als IT/IV'er binnen het Rijk
 
-**27 van de 61 profielen** hebben een I-leerkaart (stand 2026-06-21). Doel is alle 64 profielen.
+**27 van de 63 profielen** hebben een I-leerkaart (stand 2026-06-21). Doel is alle 64 profielen.
 
 ### Profielen MET I-leerkaart (✅)
 | ID | Naam | e-CF codes |
@@ -226,4 +227,4 @@ Een **I-leerkaart** geeft een overzicht van trainingen, opleidingen, workshops e
 
 ## Volledige profielomschrijvingen en e-CF data
 
-Zie [reference.md](reference.md) voor alle 61 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties.
+Zie [reference.md](reference.md) voor alle 63 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties.
