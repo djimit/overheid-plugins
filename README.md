@@ -1,4 +1,4 @@
-# Overheid Claude Plugins
+# Overheid Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
 [![skills](https://img.shields.io/badge/skills-24-green.svg)](#skills-in-deze-plugin)
