@@ -12,12 +12,16 @@ description: >-
   'e-Competence Framework overheid', 'doorgroeimogelijkheden IT', 'volgende stap
   loopbaan IT', 'functieprofiel informatievoorziening', 'profiel zoeken KWIV',
   'profielen vergelijken KWIV', 'P-Direkt profiel', 'Functiegebouw Rijk IT',
-  'FGR informatievoorziening', 'ODI loopbaan', 'rijksoverheid IT carrière',
-  'informatiearchitectuur overheid', 'applicatieontwikkeling overheid',
-  'systeembeheer overheid', 'security management overheid', 'scrum master overheid',
-  'product owner overheid', 'projectmanagement IV', 'datamanagement overheid',
-  'informatiemanagement overheid', of vergelijkbare vragen over IT/IV-loopbanen,
-  competentieprofielen of doorgroeimogelijkheden bij de Nederlandse rijksoverheid.
+  'FGR informatievoorziening', 'FGR ICT', 'FGR functie IT', 'Functiegebouw Rijk
+  koppeling', 'welke FGR hoort bij KWIV', 'KWIV naar FGR', 'FGR naar KWIV',
+  'Medewerker ICT FGR', 'Adviseur ICT FGR', 'Specialist ICT FGR', 'Architect ICT
+  FGR', 'Informatiemanager FGR', 'Projectmanager IV FGR', 'ODI loopbaan',
+  'rijksoverheid IT carrière', 'informatiearchitectuur overheid',
+  'applicatieontwikkeling overheid', 'systeembeheer overheid', 'security management
+  overheid', 'scrum master overheid', 'product owner overheid', 'projectmanagement
+  IV', 'datamanagement overheid', 'informatiemanagement overheid', of vergelijkbare
+  vragen over IT/IV-loopbanen, competentieprofielen, FGR-functies of
+  doorgroeimogelijkheden bij de Nederlandse rijksoverheid.
 model: sonnet
 ---
 
@@ -67,6 +71,24 @@ Het **Kwaliteitsraamwerk Informatievoorziening (KWIV)** bestaat uit **64 compete
 2. Stel de beschrijvingen naast elkaar
 3. Benoem: overlap, aangrenzende focus, vereiste stap van het ene naar het andere
 4. Vermeld de KWIV-site voor officieel vergelijken: https://kwiv.rijksapplicaties.nl/profielen/profiel-vergelijken
+
+## Workflow: FGR ↔ KWIV koppeling
+
+Gebruik [fgr-koppeling.md](fgr-koppeling.md) voor vragen over de relatie tussen FGR-functies en KWIV-profielen.
+
+**Van FGR naar KWIV:**
+1. Identificeer de FGR functiefamilie van de gebruiker (bijv. "Adviseur ICT", "Architect ICT")
+2. Zoek in fgr-koppeling.md onder die functiefamilie welke KWIV-profielen horen
+3. Vraag door op specifieke werkzaamheden om het juiste KWIV-profiel te pinpointen
+4. Toon profielomschrijving uit reference.md
+
+**Van KWIV naar FGR:**
+1. Zoek het KWIV-profiel in de omgekeerde index onderaan fgr-koppeling.md
+2. Geef de bijbehorende FGR functiefamilie + indicatieve schaalrange
+3. Vermeld altijd: KWIV is bewust schaalvrij; schalen zijn indicatief, geen normatieve toewijzing
+4. Verwijs voor officieel FGR-gebruik naar: https://www.functiegebouwrijksoverheid.nl
+
+**Let op:** Een gebruiker kan meerdere KWIV-profielen combineren (bijv. Functioneel Beheer + Informatieanalyse). De FGR-functie wordt dan bepaald door het zwaarste profiel.
 
 ## Snelle profielindex
 
@@ -159,7 +181,7 @@ Het **Kwaliteitsraamwerk Informatievoorziening (KWIV)** bestaat uit **64 compete
 Nee. KWIV-profielen zijn *competentieprofielen* (wat je doet en kunt), geen functieomschrijvingen. Ze zijn generiek en worden afgestemd op de eigen organisatie.
 
 **Is een KWIV-profiel gekoppeld aan een salarisschaal?**
-Nee. Dat is bewust: het gaat om vakinhoud, niet om schaal.
+Nee. Dat is bewust: het gaat om vakinhoud, niet om schaal. Voor een indicatieve FGR-koppeling incl. schaalrange: zie [fgr-koppeling.md](fgr-koppeling.md).
 
 **Hoe kom ik aan mijn KWIV-profiel?**
 Via https://kwiv.rijksapplicaties.nl/profielen/profiel-zoeken of via P-Direkt (als je organisatie al is aangesloten).
@@ -228,4 +250,5 @@ Een **I-leerkaart** geeft een overzicht van trainingen, opleidingen, workshops e
 
 ## Volledige profielomschrijvingen en e-CF data
 
-Zie [reference.md](reference.md) voor alle 63 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties.
+Zie [reference.md](reference.md) voor alle 63 profielen met beschrijvingen, e-CF competenties en loopbaanrelaties.  
+Zie [fgr-koppeling.md](fgr-koppeling.md) voor de koppeling tussen FGR-functies en KWIV-profielen.
