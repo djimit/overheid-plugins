@@ -5,7 +5,7 @@
 [![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
 [![CI](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-claude-plugins/actions/workflows/validate.yml)
 
-Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **24 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
+Centrale catalogus van [Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **24 eigen skills** voor het bouwen van overheidssoftware en een marketplace met 7 community-plugins.
 
 ## Snel starten
 
