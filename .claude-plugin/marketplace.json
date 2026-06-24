@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "logius-standaarden",
-      "description": "Plugin voor het werken met Logius standaarden voor Nederlandse overheidsinteroperabiliteit. Bevat skills voor 77 GitHub repositories verdeeld over 9 domeinen: API Design Rules, Digikoppeling, Identity & Access Management, FSC, Logboek Dataverwerkingen, CloudEvents & Notificaties, BOMOS governance, E-Government services, en Publicatie & Tooling.",
-      "version": "1.3.4",
+      "description": "CONCEPT — Skills voor Nederlandse overheidsstandaarden (beheerd door Logius): API Design Rules, Digikoppeling, OAuth NL, FSC, Logboek Dataverwerkingen, CloudEvents, BOMOS, E-Government en Publicatie-tooling. Bevat 10 skills voor 77 GitHub repositories verdeeld over 9 domeinen.",
+      "version": "0.4.6",
       "author": {
         "name": "MinBZK"
       },
@@ -75,7 +75,7 @@
     {
       "name": "nerds",
       "description": "Plugin voor de Nederlandse Richtlijn Digitale Systemen (NeRDS). Bevat skills voor 13 richtlijnen die richting geven aan het ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid: gebruikersbehoeften, toegankelijkheid, open source, open standaarden, cloud, veiligheid, privacy, samenwerking, integratie, data, algoritmen, inkoop en duurzaamheid.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "MinBZK"
       },
@@ -98,8 +98,8 @@
     },
     {
       "name": "internet-nl",
-      "description": "Plugin voor het testen en implementeren van moderne internetstandaarden conform internet.nl. Bevat skills voor 5 domeinen: webstandaarden (HTTPS, TLS, DNSSEC, IPv6, RPKI), mailstandaarden (DMARC, DKIM, SPF, STARTTLS, DANE), batch API, en implementatiegidsen uit de toolbox-wiki.",
-      "version": "0.1.1",
+      "description": "CONCEPT — Skills voor moderne internetstandaarden (getest via internet.nl): webstandaarden (HTTPS, TLS, DNSSEC, IPv6, RPKI), mailstandaarden (DMARC, DKIM, SPF, STARTTLS, DANE), batch API en implementatiegidsen uit de toolbox-wiki.",
+      "version": "0.2.6",
       "author": {
         "name": "MinBZK"
       },
@@ -120,8 +120,8 @@
     },
     {
       "name": "geonovum",
-      "description": "Plugin voor Geonovum geo-standaarden voor ruimtelijke data in Nederland. Bevat skills voor 6 domeinen: OGC API services (WMS, WFS, WMTS, OGC API Features), metadata (ISO 19115, NGR), informatiemodellen (NEN 3610, MIM), INSPIRE implementatie, en 3D standaarden (CityGML, 3D Tiles).",
-      "version": "0.1.1",
+      "description": "CONCEPT — Skills voor Nederlandse geo-standaarden (beheerd door Geonovum): OGC API services (WMS, WFS, WMTS, OGC API Features), metadata (ISO 19115, NGR), informatiemodellen (NEN 3610, MIM), INSPIRE implementatie en 3D standaarden (CityGML, 3D Tiles).",
+      "version": "0.3.7",
       "author": {
         "name": "MinBZK"
       },
@@ -142,7 +142,7 @@
     },
     {
       "name": "bio-security-baseline",
-      "description": "Skill voor de Baseline Informatiebeveiliging Overheid 2 (BIO2): verplichte beveiligingsmaatregelen voor alle Nederlandse overheidsorganisaties (informatiebeveiliging, toegangsbeheer, kwetsbaarhedenbeheer, logging, cryptografie, EU CRA, AI Act, eIDAS 2.0, en meer)",
+      "description": "Skill voor de Baseline Informatiebeveiliging Overheid 2 (BIO2): verplichte beveiligingsmaatregelen voor alle Nederlandse overheidsorganisaties, gebaseerd op ISO/IEC 27001/27002 en NIS2",
       "version": "0.2.0",
       "author": {
         "name": "MinBZK",
@@ -153,7 +153,18 @@
         "repo": "djimit/bio-security-baseline"
       },
       "category": "security",
-      "tags": ["overheid", "beveiliging", "informatiebeveiliging", "BIO", "BIO2", "ISO27001", "NIS2", "cybersecurity", "security-baseline", "compliance"]
+      "tags": [
+        "overheid",
+        "beveiliging",
+        "informatiebeveiliging",
+        "BIO",
+        "BIO2",
+        "ISO27001",
+        "NIS2",
+        "cybersecurity",
+        "security-baseline",
+        "compliance"
+      ]
     }
   ]
 }
