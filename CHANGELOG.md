@@ -9,6 +9,17 @@ en dit project volgt [Semantic Versioning](https://semver.org/lang/nl/).
 
 ### Toegevoegd
 
+- **Agentic Government Framework** — Multi-agent orchestration voor overheidsprocessen
+- **10 nieuwe skills** (totaal: 34 skills):
+  - agentic-governance: Multi-agent orchestration, workflow patronen, Rule Maturity Model, agent configuraties
+  - kwiv-agent-personas: KWIV-profielen → AI agent configuraties (unieke differentiatie, 28 profielen)
+  - cross-reference-matrix: Volledige NORA/BIO2/e-CF/wetten mapping van alle skills
+  - agentic-government-starter-kit: Templates, scaffolds, CI/CD pipelines, monitoring setup
+  - gemeentelijke-iv: IV voor 342+ gemeenten (burgerzaken, OZB, APV, Wmo, archivering, ruimtelijke ordening)
+  - uitvoeringsorganisaties: UWV, Belastingdienst, IND, SVB, DJI (algoritme-compliance op schaal)
+  - geo-ruimtelijke-iv: BAG, BRK, IMGeo, 3D Basisvoorziening, INSPIRE, OGC API
+  - eu-interoperability: EIF, EUDI Wallet, Once-Only Principle, cross-border dienstverlening
+- AGENTS.md met volledig agentic government framework
 - CI workflow voor automatische plugin versie-checks (dagelijks, maakt PR bij versie-drift)
 - Versie-vergelijking met normalisatie (v-prefix, trailing .0)
 - Tests voor check-versions script
