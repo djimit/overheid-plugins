@@ -13,6 +13,15 @@ en dit project volgt [Semantic Versioning](https://semver.org/lang/nl/).
 - **10 nieuwe skills** (totaal: 34 skills):
   - agentic-governance: Multi-agent orchestration, workflow patronen, Rule Maturity Model, agent configuraties
   - kwiv-agent-personas: KWIV-profielen → AI agent configuraties (unieke differentiatie, 28 profielen)
+- **8 extra skills** (totaal: 42 skills):
+  - ai-governance: EU AI Act compliance, FRIA, risicoclassificatie, conformiteitsbeoordeling
+  - common-ground: Open Zaak, Open Formulieren, Open Notificaties implementatie
+  - nis2-compliance: NIS2/Cyberbeveiligingswet, incidentrapportage, risicomanagement
+  - juraregel-integratie: JuraRegel Rule Service integratie, JREM, Rule Extraction Sprint
+  - functiehuis-rijk: FGR salarisschalen, functiebeschrijvingen, IT-carrièrepaden
+  - provincies: IV voor 12 provincies (omgevingsvisie, wegen, MER, waterbeheer)
+  - waterschappen: IV voor 21 waterschappen (waterkeringen, kwaliteit, overlast)
+  - developer-overheid: developer.overheid.nl richtlijnen (API, frontend, security, data)
   - cross-reference-matrix: Volledige NORA/BIO2/e-CF/wetten mapping van alle skills
   - agentic-government-starter-kit: Templates, scaffolds, CI/CD pipelines, monitoring setup
   - gemeentelijke-iv: IV voor 342+ gemeenten (burgerzaken, OZB, APV, Wmo, archivering, ruimtelijke ordening)

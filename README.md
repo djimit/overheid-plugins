@@ -1,7 +1,7 @@
 # Overheid Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
-[![skills](https://img.shields.io/badge/skills-34-green.svg)](#skills-in-deze-plugin)
+[![skills](https://img.shields.io/badge/skills-42-green.svg)](#skills-in-deze-plugin)
 [![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
 [![CI](https://github.com/djimit/overheid-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-plugins/actions/workflows/validate.yml)
 [![agentic](https://img.shields.io/badge/agentic-government-purple.svg)](#agentic-government)
@@ -79,9 +79,22 @@ alle skills tot een coherent ecosysteem van gespecialiseerde AI agents.
 | Skill | Beschrijving |
 |-------|-------------|
 | [gemeentelijke-iv](skills/gemeentelijke-iv/) | IV voor 342+ gemeenten: burgerzaken, OZB, APV, Wmo, archivering |
+| [provincies](skills/provincies/) | IV voor 12 provincies: omgevingsvisie, wegen, MER, waterbeheer |
+| [waterschappen](skills/waterschappen/) | IV voor 21 waterschappen: waterkeringen, kwaliteit, overlast |
 | [uitvoeringsorganisaties](skills/uitvoeringsorganisaties/) | UWV, Belastingdienst, IND, SVB, DJI: algoritmen op schaal |
 | [geo-ruimtelijke-iv](skills/geo-ruimtelijke-iv/) | BAG, BRK, IMGeo, 3D Basisvoorziening, INSPIRE |
 | [eu-interoperability](skills/eu-interoperability/) | EIF, EUDI Wallet, Once-Only, cross-border dienstverlening |
+
+### Legal RuleOps & Compliance
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [ai-governance](skills/ai-governance/) | EU AI Act compliance: FRIA, risicoclassificatie, conformiteitsbeoordeling |
+| [juraregel-integratie](skills/juraregel-integratie/) | JuraRegel Rule Service integratie, JREM, Rule Extraction Sprint |
+| [nis2-compliance](skills/nis2-compliance/) | NIS2/Cyberbeveiligingswet: incidentrapportage, risicomanagement |
+| [common-ground](skills/common-ground/) | Open Zaak, Open Formulieren, Open Notificaties implementatie |
+| [developer-overheid](skills/developer-overheid/) | developer.overheid.nl richtlijnen: API, frontend, security, data |
+| [functiehuis-rijk](skills/functiehuis-rijk/) | FGR: salarisschalen, functiebeschrijvingen, IT-carrièrepaden |
 
 ### Cloud & infrastructuur
 
@@ -170,9 +183,18 @@ skills/
   digitale-soevereiniteit/  # CLOUD Act, soevereine hosting, BIV
   # Cross-Government
   gemeentelijke-iv/          # IV voor 342+ gemeenten
+  provincies/               # IV voor 12 provincies
+  waterschappen/            # IV voor 21 waterschappen
   uitvoeringsorganisaties/   # UWV, Belasting, IND, SVB, DJI
   geo-ruimtelijke-iv/        # BAG, BRK, IMGeo, 3D, INSPIRE
   eu-interoperability/       # EIF, EUDI Wallet, Once-Only
+  # Legal RuleOps & Compliance
+  ai-governance/            # EU AI Act compliance, FRIA
+  juraregel-integratie/     # JuraRegel Rule Service integratie
+  nis2-compliance/          # NIS2/Cyberbeveiligingswet
+  common-ground/            # Open Zaak, Open Formulieren
+  developer-overheid/       # developer.overheid.nl richtlijnen
+  functiehuis-rijk/         # FGR schalen en functies
   # Cloud & infrastructuur
   cloud-overheid/           # Rijkscloudbeleid, BIO cloud, Haven
   # Authenticatie & beveiliging
