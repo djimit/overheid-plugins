@@ -1,12 +1,12 @@
 # Overheid Plugins
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
-[![skills](https://img.shields.io/badge/skills-42-green.svg)](#skills-in-deze-plugin)
+[![skills](https://img.shields.io/badge/skills-54-green.svg)](#skills-in-deze-plugin)
 [![plugins](https://img.shields.io/badge/marketplace_plugins-7-blue.svg)](#marketplace-plugins)
 [![CI](https://github.com/djimit/overheid-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/djimit/overheid-plugins/actions/workflows/validate.yml)
 [![agentic](https://img.shields.io/badge/agentic-government-purple.svg)](#agentic-government)
 
-Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **34 eigen skills** voor het bouwen van overheidssoftware, een **agentic government framework**, en een marketplace met 7 community-plugins.
+Centrale catalogus van [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins voor de Nederlandse overheid. Bevat **54 eigen skills** voor het bouwen van overheidssoftware, een **agentic government framework**, **10 Engelstalige kernskills**, en een marketplace met 7 community-plugins.
 
 > **#1 repo voor agentic government development in Nederland en de EU.**
 
@@ -95,6 +95,26 @@ alle skills tot een coherent ecosysteem van gespecialiseerde AI agents.
 | [common-ground](skills/common-ground/) | Open Zaak, Open Formulieren, Open Notificaties implementatie |
 | [developer-overheid](skills/developer-overheid/) | developer.overheid.nl richtlijnen: API, frontend, security, data |
 | [functiehuis-rijk](skills/functiehuis-rijk/) | FGR: salarisschalen, functiebeschrijvingen, IT-carrièrepaden |
+| [fsc](skills/fsc/) | Federated Service Connect, PKIoverheid, mTLS, Digikoppeling migratie |
+| [haven](skills/haven/) | Rijkscloud Haven, Cloud Service Broker, exit-strategie |
+| [privacy-cookies](skills/privacy-cookies/) | AVG privacybeleid, ePrivacy cookiebeleid, consent |
+| [veilig-bouwen](skills/veilig-bouwen/) | OWASP Top 10, SAST/DAST/SCA, supply chain, CVD |
+| [algoritmeregister-aangifte](skills/algoritmeregister-aangifte/) | Algoritmeregister procedure, Woo Art. 2.1 |
+
+### EU-English Kernskills
+
+| Skill | Beschrijving |
+|-------|-------------|
+| [nora-architecture](skills/eu-engels/nora-architecture.md) | NORA principles (EN) |
+| [bio2-baseline](skills/eu-engels/bio2-baseline.md) | BIO2 security baseline (EN) |
+| [gdpr-privacy](skills/eu-engels/gdpr-privacy.md) | GDPR/AVG compliance (EN) |
+| [ai-governance](skills/eu-engels/ai-governance.md) | EU AI Act (EN) |
+| [digital-identity](skills/eu-engels/digital-identity.md) | EUDI Wallet (EN) |
+| [interoperability](skills/eu-engels/interoperability.md) | EIF framework (EN) |
+| [open-data](skills/eu-engels/open-data.md) | DCAT-AP-NL (EN) |
+| [accessibility](skills/eu-engels/accessibility.md) | WCAG 2.2 (EN) |
+| [secure-development](skills/eu-engels/secure-development.md) | OWASP (EN) |
+| [algorithm-register](skills/eu-engels/algorithm-register.md) | Algorithm Register (EN) |
 
 ### Cloud & infrastructuur
 
@@ -195,6 +215,12 @@ skills/
   common-ground/            # Open Zaak, Open Formulieren
   developer-overheid/       # developer.overheid.nl richtlijnen
   functiehuis-rijk/         # FGR schalen en functies
+  fsc/                      # Federated Service Connect
+  haven/                    # Rijkscloud Haven
+  privacy-cookies/          # AVG + ePrivacy cookies
+  veilig-bouwen/            # Secure development
+  algoritmeregister-aangifte/ # Algoritmeregister procedure
+  eu-engels/                # 10 Engelstalige kernskills
   # Cloud & infrastructuur
   cloud-overheid/           # Rijkscloudbeleid, BIO cloud, Haven
   # Authenticatie & beveiliging

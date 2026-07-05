@@ -1,0 +1,92 @@
+name: Validate Overheid Plugins Skills
+
+on:
+  workflow_call:
+    inputs:
+      skill-path:
+        required: true
+        type: string
+        description: "Path to the skill directory (e.g., skills/my-skill/)"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate skill frontmatter
+        run: |
+          python3 << 'PYEOF'
+          import yaml, sys, os
+
+          skill_path = "${{ inputs.skill-path }}"
+          skill_md = os.path.join(skill_path, "SKILL.md")
+
+          if not os.path.exists(skill_md):
+              print(f"FAIL: {skill_md} not found")
+              sys.exit(1)
+
+          with open(skill_md) as f:
+              content = f.read()
+
+          if not content.startswith("---"):
+              print("FAIL: Missing YAML frontmatter")
+              sys.exit(1)
+
+          end = content.find("---", 3)
+          if end == -1:
+              print("FAIL: Unterminated frontmatter")
+              sys.exit(1)
+
+          frontmatter = yaml.safe_load(content[3:end])
+          required = ["name", "version", "description"]
+          for field in required:
+              if field not in frontmatter:
+                  print(f"FAIL: Missing required field '{field}'")
+                  sys.exit(1)
+
+          if "triggers" in frontmatter and "keywords" in frontmatter["triggers"]:
+              if len(frontmatter["triggers"]["keywords"]) < 3:
+                  print("FAIL: Minimum 3 trigger keywords required")
+                  sys.exit(1)
+
+          print(f"PASS: {skill_path} frontmatter valid")
+          PYEOF
+
+      - name: Check cross-references
+        run: |
+          python3 << 'PYEOF'
+          import os, re
+
+          skill_path = "${{ inputs.skill-path }}"
+          skill_md = os.path.join(skill_path, "SKILL.md")
+
+          with open(skill_md) as f:
+              content = f.read()
+
+          if "Gerelateerde skills" not in content and "Related skills" not in content:
+              print("FAIL: Missing cross-references section")
+              sys.exit(1)
+
+          # Find markdown links
+          refs = re.findall(r'\[.*?\]\(.*?\)', content)
+          if len(refs) < 2:
+              print("FAIL: Minimum 2 cross-references required")
+              sys.exit(1)
+
+          print(f"PASS: {skill_path} has {len(refs)} cross-references")
+          PYEOF
+
+      - name: Check file structure
+        run: |
+          skill_path="${{ inputs.skill-path }}"
+          if [ ! -f "$skill_path/SKILL.md" ]; then
+            echo "FAIL: SKILL.md missing"
+            exit 1
+          fi
+          echo "PASS: File structure valid"

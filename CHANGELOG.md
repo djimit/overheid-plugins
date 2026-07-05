@@ -22,6 +22,15 @@ en dit project volgt [Semantic Versioning](https://semver.org/lang/nl/).
   - provincies: IV voor 12 provincies (omgevingsvisie, wegen, MER, waterbeheer)
   - waterschappen: IV voor 21 waterschappen (waterkeringen, kwaliteit, overlast)
   - developer-overheid: developer.overheid.nl richtlijnen (API, frontend, security, data)
+- **Sprint 2** (totaal: 54 skills):
+  - fsc: Federated Service Connect, PKIoverheid, mTLS, Digikoppeling migratie
+  - haven: Rijkscloud Haven platform, Cloud Service Broker, exit-strategie
+  - privacy-cookies: AVG privacybeleid, ePrivacy cookiebeleid, consent
+  - veilig-bouwen: OWASP Top 10, SAST/DAST/SCA, supply chain, CVD
+  - algoritmeregister-aangifte: Algoritmeregister procedure, Woo Art. 2.1
+  - eu-engels: 10 Engelstalige kernskills voor EU-adoptie
+  - Reusable GitHub Actions workflow voor skill validatie
+  - Issue templates (skill-voorstel, bug-report) en CODE_OF_CONDUCT
   - cross-reference-matrix: Volledige NORA/BIO2/e-CF/wetten mapping van alle skills
   - agentic-government-starter-kit: Templates, scaffolds, CI/CD pipelines, monitoring setup
   - gemeentelijke-iv: IV voor 342+ gemeenten (burgerzaken, OZB, APV, Wmo, archivering, ruimtelijke ordening)

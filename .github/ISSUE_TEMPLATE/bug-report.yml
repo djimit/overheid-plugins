@@ -1,0 +1,33 @@
+---
+name: Bug report
+about: Rapporteer een fout in een skill
+title: "[BUG] "
+labels: ["bug", "triage"]
+assignees: []
+---
+
+## Skill
+
+<!-- Welke skill heeft een bug? -->
+
+## Beschrijving
+
+<!-- Beschrijf de bug -->
+
+## Stappen om te reproduceren
+
+1.
+2.
+3.
+
+## Verwacht gedrag
+
+<!-- Wat zou er moeten gebeuren? -->
+
+## Werkelijk gedrag
+
+<!-- Wat gebeurt er in werkelijkheid? -->
+
+## Context
+
+<!-- OS, Claude Code versie, andere relevante context -->

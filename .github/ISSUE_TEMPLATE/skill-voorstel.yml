@@ -1,0 +1,40 @@
+---
+name: Skill voorstel
+about: Stel een nieuwe skill voor voor de overheid-plugins marketplace
+title: "[SKILL] "
+labels: ["skill-voorstel", "triage"]
+assignees: []
+---
+
+## Skill Naam
+
+<!-- Korte naam van de skill (lowercase, kebab-case) -->
+
+## Domein
+
+<!-- Welk domein dekt deze skill? (bijv. security, data, cloud, architectuur) -->
+
+## Beschrijving
+
+<!-- Beschrijf wat de skill doet en wanneer deze gebruikt wordt -->
+
+## Trigger Keywords
+
+<!-- Minimaal 5 keywords waarop de skill getriggert wordt -->
+1.
+2.
+3.
+4.
+5.
+
+## Gerelateerde Skills
+
+<!-- Welke bestaande skills zijn gerelateerd? -->
+
+## Wettelijke Bronnen
+
+<!-- Welke wetten of standaarden zijn relevant? -->
+
+## Toegevoegde Waarde
+
+<!-- Waarom is deze skill een meerwaarde voor de marketplace? -->
